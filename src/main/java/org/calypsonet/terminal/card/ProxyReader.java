@@ -34,21 +34,21 @@ public interface ProxyReader {
    * @param cardRequest The card request.
    * @param channelControl The channel control policy to apply.
    * @return A not null reference.
-   * @throws ReaderCommunicationException If the communication with the reader has failed.
-   * @throws CardCommunicationException If the communication with the card has failed.
+   * @throws ReaderBrokenCommunicationException If the communication with the reader has failed.
+   * @throws CardBrokenCommunicationException If the communication with the card has failed.
    * @throws UnexpectedStatusCodeException If any of the APDUs returned an unexpected status code
    *     and the card request specified the need to check them.
    * @since 1.0
    */
   CardResponse transmitCardRequest(CardRequest cardRequest, ChannelControl channelControl)
-      throws ReaderCommunicationException, CardCommunicationException,
+      throws ReaderBrokenCommunicationException, CardBrokenCommunicationException,
           UnexpectedStatusCodeException;
 
   /**
    * Releases the communication channel previously established with the card.
    *
-   * @throws ReaderCommunicationException If the communication with the reader has failed.
+   * @throws ReaderBrokenCommunicationException If the communication with the reader has failed.
    * @since 1.0
    */
-  void releaseChannel() throws ReaderCommunicationException;
+  void releaseChannel() throws ReaderBrokenCommunicationException;
 }

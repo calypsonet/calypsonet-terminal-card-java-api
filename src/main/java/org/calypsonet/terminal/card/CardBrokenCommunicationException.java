@@ -10,14 +10,13 @@
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
 package org.calypsonet.terminal.card;
-
 /**
  * Exception carrying response data received from the card until a communication failure with the
- * reader occurs.
+ * card occurs.
  *
  * @since 1.0
  */
-public class ReaderCommunicationException extends AbstractApduException {
+public class CardBrokenCommunicationException extends AbstractApduException {
 
   /**
    * Builds a new exception embedding card response data.
@@ -26,7 +25,7 @@ public class ReaderCommunicationException extends AbstractApduException {
    * @param message Message to identify the exception context.
    * @since 1.0
    */
-  public ReaderCommunicationException(CardResponse cardResponse, String message) {
+  public CardBrokenCommunicationException(CardResponse cardResponse, String message) {
     super(cardResponse, message);
   }
 
@@ -38,7 +37,8 @@ public class ReaderCommunicationException extends AbstractApduException {
    * @param cause The cause
    * @since 1.0
    */
-  public ReaderCommunicationException(CardResponse cardResponse, String message, Throwable cause) {
+  public CardBrokenCommunicationException(
+      CardResponse cardResponse, String message, Throwable cause) {
     super(cardResponse, message, cause);
   }
 }
