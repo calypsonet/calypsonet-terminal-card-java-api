@@ -1,1 +1,1 @@
-This is the Calypso Network Association's reference 'Card API' for C++.
+This is the **Calypso Network Association**'s reference **Terminal Card API** for C++.

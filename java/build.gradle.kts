@@ -29,7 +29,6 @@ repositories {
     maven(url = "https://oss.sonatype.org/content/repositories/snapshots")
 }
 dependencies {
-    implementation("org.eclipse.keyple:keyple-java-commons-api:2.0-SNAPSHOT")
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.assertj:assertj-core:3.15.0")
 }
