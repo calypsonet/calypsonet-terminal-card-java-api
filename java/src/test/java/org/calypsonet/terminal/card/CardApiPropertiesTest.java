@@ -9,14 +9,13 @@
  *
  * SPDX-License-Identifier: EPL-2.0
  ************************************************************************************** */
-package org.calypsonet.terminal.card.card;
+package org.calypsonet.terminal.card;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
-import org.calypsonet.terminal.card.CardApiProperties;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
