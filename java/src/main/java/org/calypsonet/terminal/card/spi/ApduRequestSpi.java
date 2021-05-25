@@ -24,7 +24,7 @@ public interface ApduRequestSpi {
   /**
    * Gets the name of this APDU request.
    *
-   * @return null if no name has been defined.
+   * @return Null if no name has been defined.
    * @since 1.0
    */
   String getName();

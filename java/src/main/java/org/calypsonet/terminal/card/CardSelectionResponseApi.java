@@ -31,7 +31,7 @@ public interface CardSelectionResponseApi {
   /**
    * Gets the card response.
    *
-   * @return null if no responses have been set.
+   * @return Null if no responses have been set.
    * @since 1.0
    */
   CardResponseApi getCardResponse();

@@ -15,7 +15,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * List of {@link ApduResponseApi} received from the card and flags indicating.
+ * List of {@link ApduResponseApi} received from the card and associated execution information.
  *
  * @see org.calypsonet.terminal.card.spi.CardRequestSpi
  * @since 1.0
@@ -23,25 +23,27 @@ import java.util.List;
 public interface CardResponseApi extends Serializable {
 
   /**
-   * Gets the APDU responses list.
+   * Gets a list of all responses received to all APDU requests executed when {@link #isComplete()}
+   * returns true, otherwise the first responses received.
    *
-   * @return A list.
+   * @return A not null list, but empty if there is no response.
    * @since 1.0
    */
   List<ApduResponseApi> getApduResponses();
 
   /**
-   * Gets the logical channel status
+   * Gets the logical channel status.
    *
-   * @return true if the logical channel is open, false if not.
+   * @return True if the logical channel is open.
    * @since 1.0
    */
   boolean isLogicalChannelOpen();
 
   /**
-   * Indicates if all the responses expected from the corresponding CardReq have been received.
+   * Indicates if all the responses expected from the corresponding {@link
+   * org.calypsonet.terminal.card.spi.CardRequestSpi} have been received.
    *
-   * @return true if all expected responses have been received, false if not.
+   * @return True if all expected responses have been received.
    * @since 1.0
    */
   boolean isComplete();

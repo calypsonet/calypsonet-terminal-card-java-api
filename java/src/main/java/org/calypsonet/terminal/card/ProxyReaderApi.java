@@ -20,6 +20,8 @@ import org.calypsonet.terminal.card.spi.CardRequestSpi;
  *
  * <p>An adapter of this interface must also implement <b>CardReader</b>.
  *
+ * <p>To use this API, you just need to cast a <b>CardReader</b> as a <b>ProxyReaderApi</b>.
+ *
  * @since 1.0
  */
 public interface ProxyReaderApi {
