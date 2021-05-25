@@ -14,7 +14,11 @@ package org.calypsonet.terminal.card;
 import org.calypsonet.terminal.card.spi.CardRequestSpi;
 
 /**
- * Reader able to transmit card requests and having control over the physical channel.
+ * Reader able to transmit card requests and having control over the physical channel, backside of
+ * the <b>org.calypsonet.terminal.reader.CardReader</b> interface present in the <b>Terminal Reader
+ * API</b>.
+ *
+ * <p>An adapter of this interface must also implement <b>CardReader</b>.
  *
  * @since 1.0
  */

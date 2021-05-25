@@ -15,10 +15,9 @@ import org.calypsonet.terminal.card.CardSelectionResponseApi;
 
 /**
  * Extension to the selection service that provides the {@link CardSelectionRequestSpi} and
- * interprets the result to provide a {@link SmartCardSpi}.
- *
- * <p>Counterpart of the <b>org.calypsonet.terminal.reader.selection.CardSelection</b> interface
- * present in the <b>Terminal Reader API</b>.
+ * interprets the result to provide a {@link SmartCardSpi}, backside of the
+ * <b>org.calypsonet.terminal.reader.selection.CardSelection</b> interface present in the
+ * <b>Terminal Reader API</b>.
  *
  * <p>An adapter of this interface must also implement <b>CardSelection</b>.
  *

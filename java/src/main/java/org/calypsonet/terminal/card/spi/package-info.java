@@ -1,5 +1,5 @@
 /**
- * Interface of the classes to be implemented by a card processing module.
+ * Interfaces to be implemented by a card processing module.
  *
  * @since 1.0
  */
