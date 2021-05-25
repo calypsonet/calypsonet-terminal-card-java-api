@@ -11,34 +11,38 @@
  ************************************************************************************** */
 package org.calypsonet.terminal.card;
 
+import java.io.Serializable;
+import java.util.List;
+
 /**
- * Defines the getters of an object carrying the elements resulting of the card selection.
+ * List of {@link ApduResponseApi} received from the card and flags indicating.
  *
+ * @see org.calypsonet.terminal.card.spi.CardRequestSpi
  * @since 1.0
  */
-public interface SelectionStatus {
+public interface CardResponseApi extends Serializable {
 
   /**
-   * Gets the power on sequence data.
+   * Gets the APDU responses list.
    *
-   * @return null the power on data is not available.
+   * @return A list.
    * @since 1.0
    */
-  byte[] getPowerOnDataBytes();
+  List<ApduResponseApi> getApduResponses();
 
   /**
-   * Gets the {@link ApduResponse} from the card to the <b>Selection Application</b> command.
+   * Gets the logical channel status
    *
-   * @return null if the FCI is not available.
+   * @return true if the logical channel is open, false if not.
    * @since 1.0
    */
-  ApduResponse getFci();
+  boolean isLogicalChannelOpen();
 
   /**
-   * Gives the selection process status.
+   * Indicates if all the responses expected from the corresponding CardReq have been received.
    *
-   * @return true if the card has matched the selection.
+   * @return true if all expected responses have been received, false if not.
    * @since 1.0
    */
-  boolean hasMatched();
+  boolean isComplete();
 }

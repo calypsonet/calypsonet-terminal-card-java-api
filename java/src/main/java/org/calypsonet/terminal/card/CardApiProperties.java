@@ -17,6 +17,7 @@ package org.calypsonet.terminal.card;
  * @since 1.0
  */
 public class CardApiProperties {
+
   /**
    * API version: {@value}
    *

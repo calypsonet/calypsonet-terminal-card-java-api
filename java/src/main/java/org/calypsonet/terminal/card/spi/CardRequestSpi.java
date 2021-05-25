@@ -14,11 +14,10 @@ package org.calypsonet.terminal.card.spi;
 import java.util.List;
 
 /**
- * Defines the getters of an object carrying a set of {@link ApduRequestSpi} to sent to a card.
+ * List of {@link ApduRequestSpi} to be sent to a card and a flag indicating whether to stop
+ * processing in case of an unexpected status word in response to one of the APDUs.
  *
- * <p>Also allows to give information about the possible stop of the processing of {@link
- * ApduRequestSpi} in case of unexpected status word.
- *
+ * @see org.calypsonet.terminal.card.ApduResponseApi
  * @since 1.0
  */
 public interface CardRequestSpi {
@@ -32,10 +31,11 @@ public interface CardRequestSpi {
   List<ApduRequestSpi> getApduRequests();
 
   /**
-   * Gets the status code verification policy.
+   * Indicates if the processing of the requests must stop when an unexpected status word is
+   * received.
    *
-   * @return true if the status code verification is enabled, false if not.
+   * @return True if the process must stop at the first unsuccessful status code received.
    * @since 1.0
    */
-  boolean isStatusCodeVerificationEnabled();
+  boolean stopOnUnsuccessfulStatusWord();
 }

@@ -18,19 +18,19 @@ import org.calypsonet.terminal.card.spi.CardRequestSpi;
  *
  * @since 1.0
  */
-public interface ProxyReader {
+public interface ProxyReaderApi {
 
   /**
    * Transmits a {@link CardRequestSpi}, applies the provided {@link ChannelControl} policy and
-   * returns a {@link CardResponse}.
+   * returns a {@link CardResponseApi}.
    *
    * <p>The APDUs ({@link org.calypsonet.terminal.card.spi.ApduRequestSpi}) contained in the {@link
-   * CardRequestSpi} are sent to the card their responses ({@link ApduResponse}) are added to a new
-   * list.
+   * CardRequestSpi} are sent to the card, their responses ({@link ApduResponseApi}) are added to a
+   * new list.
    *
    * <p><b>Note:</b> in case of a communication error when sending an APDU, an {@link
-   * AbstractApduException} exception is thrown. Any responses from previous APDU commands are
-   * attached to this exception.<br>
+   * AbstractApduException} exception is thrown. Any responses from previously transmitted APDU
+   * commands are attached to this exception.<br>
    * This allows the calling application to be tolerant to card tearing and to retrieve the partial
    * response to the {@link CardRequestSpi}.
    *
@@ -39,13 +39,13 @@ public interface ProxyReader {
    * @return A not null reference.
    * @throws ReaderBrokenCommunicationException If the communication with the reader has failed.
    * @throws CardBrokenCommunicationException If the communication with the card has failed.
-   * @throws UnexpectedStatusCodeException If any of the APDUs returned an unexpected status code
+   * @throws UnexpectedStatusWordException If any of the APDUs returned an unexpected status word
    *     and the card request specified the need to check them.
    * @since 1.0
    */
-  CardResponse transmitCardRequest(CardRequestSpi cardRequest, ChannelControl channelControl)
+  CardResponseApi transmitCardRequest(CardRequestSpi cardRequest, ChannelControl channelControl)
       throws ReaderBrokenCommunicationException, CardBrokenCommunicationException,
-          UnexpectedStatusCodeException;
+          UnexpectedStatusWordException;
 
   /**
    * Releases the communication channel previously established with the card.

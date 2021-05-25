@@ -11,33 +11,34 @@
  ************************************************************************************** */
 package org.calypsonet.terminal.card;
 /**
- * Exception carrying response data received from the card until an unexpected APDU status code is
+ * Exception carrying response data received from the card until an unexpected APDU status word is
  * received.
  *
  * @since 1.0
  */
-public class UnexpectedStatusCodeException extends AbstractApduException {
+public class UnexpectedStatusWordException extends AbstractApduException {
 
   /**
    * Builds a new exception embedding card response data.
    *
-   * @param cardResponse The card responses received so far.
+   * @param cardResponseApi The card responses received so far.
    * @param message Message to identify the exception context.
    * @since 1.0
    */
-  public UnexpectedStatusCodeException(CardResponse cardResponse, String message) {
-    super(cardResponse, message);
+  public UnexpectedStatusWordException(CardResponseApi cardResponseApi, String message) {
+    super(cardResponseApi, message);
   }
 
   /**
    * Builds a new exception embedding card response data with the originating exception.
    *
-   * @param cardResponse The card responses received so far.
+   * @param cardResponseApi The card responses received so far.
    * @param message Message to identify the exception context.
    * @param cause The cause
    * @since 1.0
    */
-  public UnexpectedStatusCodeException(CardResponse cardResponse, String message, Throwable cause) {
-    super(cardResponse, message, cause);
+  public UnexpectedStatusWordException(
+      CardResponseApi cardResponseApi, String message, Throwable cause) {
+    super(cardResponseApi, message, cause);
   }
 }

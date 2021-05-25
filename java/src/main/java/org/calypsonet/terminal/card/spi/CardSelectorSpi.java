@@ -12,8 +12,11 @@
 package org.calypsonet.terminal.card.spi;
 
 /**
- * Card Selector to be provided as parameter to a {@link
- * org.calypsonet.terminal.card.spi.CardSelectionRequestSpi}.
+ * Marker interface providing run-time type information about data defining the selection
+ * parameters, backside of the <b>org.calypsonet.terminal.reader.selection.spi.CardSelector</b>
+ * provided by the <b>Terminal Reader API</b>.
+ *
+ * <p>An adapter of this interface must also implement <b>CardSelector</b>.
  *
  * @since 1.0
  */

@@ -11,16 +11,13 @@
  ************************************************************************************** */
 package org.calypsonet.terminal.card.spi;
 
-import org.calypsonet.terminal.card.CardSelectionResponse;
-
 /**
- * Defines the getters of an object carrying the elements on which the card selection process is
- * based.
+ * Data related to the card selection process.
  *
  * <p>Embeds a card selector defining the target card profile and an optional card request to be
  * executed after the card selection when successful.
  *
- * @see CardSelectionResponse
+ * @see org.calypsonet.terminal.card.CardSelectionResponseApi
  * @since 1.0
  */
 public interface CardSelectionRequestSpi {

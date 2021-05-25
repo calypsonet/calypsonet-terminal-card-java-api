@@ -11,10 +11,16 @@
  ************************************************************************************** */
 package org.calypsonet.terminal.card.spi;
 
-import org.calypsonet.terminal.card.CardSelectionResponse;
+import org.calypsonet.terminal.card.CardSelectionResponseApi;
 
 /**
- * Provides a selection request for a specific card and a method to analyze its result.
+ * Extension to the selection service that provides the {@link CardSelectionRequestSpi} and
+ * interprets the result to provide a {@link SmartCardSpi}.
+ *
+ * <p>Counterpart of the <b>org.calypsonet.terminal.reader.selection.CardSelection</b> interface
+ * present in the <b>Terminal Reader API</b>.
+ *
+ * <p>An adapter of this interface must also implement <b>CardSelection</b>.
  *
  * @since 1.0
  */
@@ -23,18 +29,18 @@ public interface CardSelectionSpi {
   /**
    * Gets the card selection request containing the selection data prepared for this selection.
    *
-   * @return A not null reference
+   * @return A not null reference.
    * @since 1.0
    */
   CardSelectionRequestSpi getCardSelectionRequest();
 
   /**
-   * Analyzes the response obtained from the card by the selection process and create a specific
-   * SmartCard.
+   * Analyzes the response obtained from the card by the selection process and create a {@link
+   * SmartCardSpi}.
    *
-   * @param cardSelectionResponse the card selection response
-   * @return A not null reference
+   * @param cardSelectionResponseApi The card selection response.
+   * @return A not null reference.
    * @since 1.0
    */
-  SmartCardSpi parse(CardSelectionResponse cardSelectionResponse);
+  SmartCardSpi parse(CardSelectionResponseApi cardSelectionResponseApi);
 }

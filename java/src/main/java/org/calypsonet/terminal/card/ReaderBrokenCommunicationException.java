@@ -22,24 +22,24 @@ public class ReaderBrokenCommunicationException extends AbstractApduException {
   /**
    * Builds a new exception embedding card response data.
    *
-   * @param cardResponse The card responses received so far.
+   * @param cardResponseApi The card responses received so far.
    * @param message Message to identify the exception context.
    * @since 1.0
    */
-  public ReaderBrokenCommunicationException(CardResponse cardResponse, String message) {
-    super(cardResponse, message);
+  public ReaderBrokenCommunicationException(CardResponseApi cardResponseApi, String message) {
+    super(cardResponseApi, message);
   }
 
   /**
    * Builds a new exception embedding card response data with the originating exception.
    *
-   * @param cardResponse The card responses received so far.
+   * @param cardResponseApi The card responses received so far.
    * @param message Message to identify the exception context.
    * @param cause The cause
    * @since 1.0
    */
   public ReaderBrokenCommunicationException(
-      CardResponse cardResponse, String message, Throwable cause) {
-    super(cardResponse, message, cause);
+      CardResponseApi cardResponseApi, String message, Throwable cause) {
+    super(cardResponseApi, message, cause);
   }
 }

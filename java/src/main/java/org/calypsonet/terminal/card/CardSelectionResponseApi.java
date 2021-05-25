@@ -12,12 +12,13 @@
 package org.calypsonet.terminal.card;
 
 /**
- * Defines the getters of an object carrying the elements received in response to a {@link
- * org.calypsonet.terminal.card.spi.CardSelectionRequestSpi}.
+ * Data received as a result of the entire selection process, including the result of the selection
+ * itself and the responses to any commands that may have been executed afterwards.
  *
+ * @see org.calypsonet.terminal.card.spi.CardSelectionRequestSpi
  * @since 1.0
  */
-public interface CardSelectionResponse {
+public interface CardSelectionResponseApi {
 
   /**
    * Gets the selection status.
@@ -25,7 +26,7 @@ public interface CardSelectionResponse {
    * @return A not null reference.
    * @since 1.0
    */
-  SelectionStatus getSelectionStatus();
+  SelectionStatusApi getSelectionStatus();
 
   /**
    * Gets the card response.
@@ -33,5 +34,5 @@ public interface CardSelectionResponse {
    * @return null if no responses have been set.
    * @since 1.0
    */
-  CardResponse getCardResponse();
+  CardResponseApi getCardResponse();
 }

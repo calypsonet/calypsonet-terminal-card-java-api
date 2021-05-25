@@ -13,37 +13,37 @@ package org.calypsonet.terminal.card;
 
 /**
  * Generic exception carrying response data received from the card until a communication failure
- * occurs or an unexpected APDU status code is received.
+ * occurs or an unexpected APDU status word is received.
  *
  * @since 1.0
  */
 public class AbstractApduException extends Exception {
 
-  private final CardResponse cardResponse;
+  private final CardResponseApi cardResponseApi;
 
   /**
    * Builds a new exception embedding card response data.
    *
-   * @param cardResponse The card responses received so far.
+   * @param cardResponseApi The card responses received so far.
    * @param message the message to identify the exception context
    * @since 1.0
    */
-  public AbstractApduException(CardResponse cardResponse, String message) {
+  public AbstractApduException(CardResponseApi cardResponseApi, String message) {
     super(message);
-    this.cardResponse = cardResponse;
+    this.cardResponseApi = cardResponseApi;
   }
 
   /**
    * Builds a new exception embedding card response data with the originating exception.
    *
-   * @param cardResponse The card responses received so far.
+   * @param cardResponseApi The card responses received so far.
    * @param message Message to identify the exception context.
    * @param cause The cause
    * @since 1.0
    */
-  public AbstractApduException(CardResponse cardResponse, String message, Throwable cause) {
+  public AbstractApduException(CardResponseApi cardResponseApi, String message, Throwable cause) {
     super(message, cause);
-    this.cardResponse = cardResponse;
+    this.cardResponseApi = cardResponseApi;
   }
 
   /**
@@ -52,7 +52,7 @@ public class AbstractApduException extends Exception {
    * @return A not null reference.
    * @since 1.0
    */
-  public CardResponse getCardResponse() {
-    return cardResponse;
+  public CardResponseApi getCardResponse() {
+    return cardResponseApi;
   }
 }

@@ -12,7 +12,11 @@
 package org.calypsonet.terminal.card.spi;
 
 /**
- * SmartCard resulting from the selection process.
+ * Marker interface providing run-time type information about data defining the
+ * <b>org.calypsonet.terminal.reader.selection.spi.SmartCard</b> resulting of the selection process
+ * provided by the <b>Terminal Reader API</b>.
+ *
+ * <p>An adapter of this interface must also implement <b>SmartCard</b>.
  *
  * @since 1.0
  */
