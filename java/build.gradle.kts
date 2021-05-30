@@ -8,11 +8,10 @@ plugins {
 buildscript {
     repositories {
         mavenLocal()
-        maven(url = "https://repo.eclipse.org/service/local/repositories/maven_central/content")
         mavenCentral()
     }
     dependencies {
-        classpath("org.eclipse.keyple:keyple-gradle:0.2.8")
+        classpath("org.eclipse.keyple:keyple-gradle:0.2.+")
     }
 }
 apply(plugin = "org.eclipse.keyple")
@@ -22,7 +21,6 @@ apply(plugin = "org.eclipse.keyple")
 ///////////////////////////////////////////////////////////////////////////////
 repositories {
     mavenLocal()
-    maven(url = "https://repo.eclipse.org/service/local/repositories/maven_central/content")
     mavenCentral()
 }
 dependencies {
