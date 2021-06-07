@@ -12,7 +12,7 @@
 package org.calypsonet.terminal.card.spi;
 
 /**
- * Data related to the card selection process.
+ * Data provided as input to the selection process.
  *
  * <p>Embeds a card selector defining the target card profile and an optional card request to be
  * executed after the card selection when successful.
@@ -33,7 +33,7 @@ public interface CardSelectionRequestSpi {
   /**
    * Gets the card request.
    *
-   * @return a {@link CardRequestSpi} or null if it has not been defined
+   * @return Null if no card request has been defined.
    * @since 1.0
    */
   CardRequestSpi getCardRequest();

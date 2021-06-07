@@ -1,5 +1,5 @@
 /**
- * Interfaces to be implemented by a card processing module.
+ * Components implemented by a card extension module.
  *
  * @since 1.0
  */

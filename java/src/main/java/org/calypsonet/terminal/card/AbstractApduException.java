@@ -20,30 +20,42 @@ package org.calypsonet.terminal.card;
 public class AbstractApduException extends Exception {
 
   private final CardResponseApi cardResponseApi;
+  private final boolean isCardResponseComplete;
 
   /**
    * Builds a new exception embedding card response data.
    *
    * @param cardResponseApi The card responses received so far.
+   * @param isCardResponseComplete True if the number responses equals the number of requests
+   *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message the message to identify the exception context
    * @since 1.0
    */
-  public AbstractApduException(CardResponseApi cardResponseApi, String message) {
+  public AbstractApduException(
+      CardResponseApi cardResponseApi, boolean isCardResponseComplete, String message) {
     super(message);
     this.cardResponseApi = cardResponseApi;
+    this.isCardResponseComplete = isCardResponseComplete;
   }
 
   /**
    * Builds a new exception embedding card response data with the originating exception.
    *
    * @param cardResponseApi The card responses received so far.
+   * @param isCardResponseComplete True if the number responses equals the number of requests
+   *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
    * @param cause The cause
    * @since 1.0
    */
-  public AbstractApduException(CardResponseApi cardResponseApi, String message, Throwable cause) {
+  public AbstractApduException(
+      CardResponseApi cardResponseApi,
+      boolean isCardResponseComplete,
+      String message,
+      Throwable cause) {
     super(message, cause);
     this.cardResponseApi = cardResponseApi;
+    this.isCardResponseComplete = isCardResponseComplete;
   }
 
   /**
@@ -54,5 +66,16 @@ public class AbstractApduException extends Exception {
    */
   public CardResponseApi getCardResponse() {
     return cardResponseApi;
+  }
+
+  /**
+   * Indicates if all the responses expected from the corresponding {@link
+   * org.calypsonet.terminal.card.spi.CardRequestSpi} have been received.
+   *
+   * @return True if all expected responses have been received.
+   * @since 1.0
+   */
+  boolean isCardResponseComplete() {
+    return isCardResponseComplete;
   }
 }

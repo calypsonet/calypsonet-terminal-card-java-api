@@ -14,8 +14,10 @@ package org.calypsonet.terminal.card.spi;
 import java.util.List;
 
 /**
- * List of {@link ApduRequestSpi} to be sent to a card and a flag indicating whether to stop
- * processing in case of an unexpected status word in response to one of the APDUs.
+ * Request grouping multiple APDUs to be executed consecutively.
+ *
+ * <p>Contains a list of {@link ApduRequestSpi} to be sent to a card and a flag indicating whether
+ * to stop processing in case of an unexpected status word in response to one of the APDUs.
  *
  * @see org.calypsonet.terminal.card.ApduResponseApi
  * @since 1.0
@@ -34,7 +36,7 @@ public interface CardRequestSpi {
    * Indicates if the processing of the requests must stop when an unexpected status word is
    * received.
    *
-   * @return True if the process must stop at the first unsuccessful status code received.
+   * @return True if the process must stop at the first unsuccessful status word received.
    * @since 1.0
    */
   boolean stopOnUnsuccessfulStatusWord();

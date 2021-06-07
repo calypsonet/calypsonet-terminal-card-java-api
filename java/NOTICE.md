@@ -1,6 +1,6 @@
-# Notices for 'Card API' Java implementation
+# Notices for 'Eclipse Keyple' Java implementation
 
-This content is produced and maintained by the Calypso Networks Association.
+This content is produced and maintained by the Eclipse Keyple project.
 
 * Project home: https://projects.eclipse.org/projects/iot.keyple
  
@@ -11,6 +11,7 @@ This content is produced and maintained by the Calypso Networks Association.
 
 ## Trademarks
  
+* Eclipse Keyple and the Eclipse Keyple project are Trademarks of the Eclipse Foundation, Inc.
 * Eclipse® is a Trademark of the Eclipse Foundation, Inc.
 * Eclipse Foundation is a Trademark of the Eclipse Foundation, Inc.
  

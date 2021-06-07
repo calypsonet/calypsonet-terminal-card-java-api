@@ -14,7 +14,9 @@ package org.calypsonet.terminal.card;
 import java.io.Serializable;
 
 /**
- * Data received in response to an APDU command.
+ * Data received in response to an APDU command
+ *
+ * <p>Consists in a data part of variable length and a status word (SW1SW2).
  *
  * @see org.calypsonet.terminal.card.spi.ApduRequestSpi
  * @since 1.0
@@ -22,15 +24,15 @@ import java.io.Serializable;
 public interface ApduResponseApi extends Serializable {
 
   /**
-   * Gets the raw data received from the card (including the SW1SW2 status word).
+   * Gets the raw data received from the card (including the status word).
    *
-   * @return A not null byte array.
+   * @return An array of at least 2 bytes.
    * @since 1.0
    */
-  byte[] getBytes();
+  byte[] getApdu();
 
   /**
-   * Gets the data part of the response received from the card (excluding the SW1SW2 status word).
+   * Gets the data part of the response received from the card (excluding the status word).
    *
    * @return A not null byte array.
    * @since 1.0
@@ -38,9 +40,9 @@ public interface ApduResponseApi extends Serializable {
   byte[] getDataOut();
 
   /**
-   * Gets the SW1SW2 status word of the APDU as an int.
+   * Gets the status word of the APDU as an int.
    *
-   * @return A int.
+   * @return An integer between 0000h and FFFFh.
    * @since 1.0
    */
   int getStatusWord();

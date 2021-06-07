@@ -12,8 +12,10 @@
 package org.calypsonet.terminal.card;
 
 /**
- * Data received as a result of the entire selection process, including the result of the selection
- * itself and the responses to any commands that may have been executed afterwards.
+ * Data from the start-up phase with the card: selection data and any additional responses.
+ *
+ * <p>Includes the status of the selection itself and the responses to any commands that may have
+ * been executed afterwards.
  *
  * @see org.calypsonet.terminal.card.spi.CardSelectionRequestSpi
  * @since 1.0
@@ -21,17 +23,36 @@ package org.calypsonet.terminal.card;
 public interface CardSelectionResponseApi {
 
   /**
-   * Gets the selection status.
+   * Gets the card power-on data.
    *
-   * @return A not null reference.
+   * @return Null if the card power-on data is not available.
    * @since 1.0
    */
-  SelectionStatusApi getSelectionStatus();
+  String getPowerOnData();
 
   /**
-   * Gets the card response.
+   * Gets the {@link ApduResponseApi} received from the card in response to the <b>Select
+   * Application</b> command.
    *
-   * @return Null if no responses have been set.
+   * @return Null if no Select Application command was performed..
+   * @since 1.0
+   */
+  ApduResponseApi getSelectApplicationResponse();
+
+  /**
+   * Gives the selection process status.
+   *
+   * @return True if the card inserted matches the selection filters.
+   * @since 1.0
+   */
+  boolean hasMatched();
+
+  /**
+   * Gets the responses of the card to the requests present in the {@link
+   * org.calypsonet.terminal.card.spi.CardRequestSpi} from the {@link
+   * org.calypsonet.terminal.card.spi.CardSelectionRequestSpi}.
+   *
+   * @return Null if no requests have been set.
    * @since 1.0
    */
   CardResponseApi getCardResponse();

@@ -12,7 +12,7 @@
 package org.calypsonet.terminal.card;
 
 /**
- * API properties
+ * API properties.
  *
  * @since 1.0
  */

@@ -15,7 +15,19 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * List of {@link ApduResponseApi} received from the card and associated execution information.
+ * Group of multiple APDU responses.
+ *
+ * <p>Contains a list of {@link ApduResponseApi} received from the card in response to a {@link
+ * org.calypsonet.terminal.card.spi.CardRequestSpi} and the associated execution status.
+ *
+ * <p>The execution status includes the state of the logical channel after the operation and the
+ * information saying whether a response is present for all APDUs in the {@link
+ * org.calypsonet.terminal.card.spi.CardRequestSpi}.
+ *
+ * <p>Responses may be missing when this object is embedded in an {@link AbstractApduException}, for
+ * example, if the card is removed during processing or if an unsuccessful status word was received
+ * and processing was requested to be stopped in this case (see {@link
+ * org.calypsonet.terminal.card.spi.CardRequestSpi#stopOnUnsuccessfulStatusWord()}.
  *
  * @see org.calypsonet.terminal.card.spi.CardRequestSpi
  * @since 1.0
@@ -23,28 +35,18 @@ import java.util.List;
 public interface CardResponseApi extends Serializable {
 
   /**
-   * Gets a list of all responses received to all APDU requests executed when {@link #isComplete()}
-   * returns true, otherwise the first responses received.
+   * Gets a list of all responses received to the executed APDU requests.
    *
-   * @return A not null list, but empty if there is no response.
+   * @return A not null list, empty if there is no response.
    * @since 1.0
    */
   List<ApduResponseApi> getApduResponses();
 
   /**
-   * Gets the logical channel status.
+   * Gets the state of the logical channel following the execution of the request.
    *
    * @return True if the logical channel is open.
    * @since 1.0
    */
   boolean isLogicalChannelOpen();
-
-  /**
-   * Indicates if all the responses expected from the corresponding {@link
-   * org.calypsonet.terminal.card.spi.CardRequestSpi} have been received.
-   *
-   * @return True if all expected responses have been received.
-   * @since 1.0
-   */
-  boolean isComplete();
 }

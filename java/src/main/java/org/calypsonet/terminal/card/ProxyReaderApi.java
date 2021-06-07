@@ -14,13 +14,14 @@ package org.calypsonet.terminal.card;
 import org.calypsonet.terminal.card.spi.CardRequestSpi;
 
 /**
- * Reader able to transmit card requests and having control over the physical channel, backside of
- * the <b>org.calypsonet.terminal.reader.CardReader</b> interface present in the <b>Terminal Reader
- * API</b>.
+ * Reader able to transmit card requests and having control over the physical channel.
+ *
+ * <p>Backside of the <b>org.calypsonet.terminal.reader.CardReader</b> interface present in the
+ * <b>Terminal Reader API</b>.
  *
  * <p>An adapter of this interface must also implement <b>CardReader</b>.
  *
- * <p>To use this API, you just need to cast a <b>CardReader</b> as a <b>ProxyReaderApi</b>.
+ * <p>To use this API, simply cast a <b>CardReader</b> as a <b>ProxyReaderApi</b>.
  *
  * @since 1.0
  */
@@ -32,13 +33,14 @@ public interface ProxyReaderApi {
    *
    * <p>The APDUs ({@link org.calypsonet.terminal.card.spi.ApduRequestSpi}) contained in the {@link
    * CardRequestSpi} are sent to the card, their responses ({@link ApduResponseApi}) are added to a
-   * new list.
+   * new list ({@link CardResponseApi}).
    *
-   * <p><b>Note:</b> in case of a communication error when sending an APDU, an {@link
-   * AbstractApduException} exception is thrown. Any responses from previously transmitted APDU
-   * commands are attached to this exception.<br>
+   * <p><b>Note:</b> in case of an error when sending an APDU (communication error, unexpected
+   * status word), an {@link AbstractApduException} exception is thrown. Any responses from
+   * previously transmitted APDU commands are attached to this exception.<br>
    * This allows the calling application to be tolerant to card tearing and to retrieve the partial
-   * response to the {@link CardRequestSpi}.
+   * response to the {@link CardRequestSpi} or to have strict control over the APDUs sent to the
+   * card (see {@link CardRequestSpi#stopOnUnsuccessfulStatusWord()}).
    *
    * @param cardRequest The card request.
    * @param channelControl The channel control policy to apply.

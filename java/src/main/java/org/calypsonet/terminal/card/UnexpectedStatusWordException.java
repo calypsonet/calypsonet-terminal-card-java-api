@@ -22,23 +22,31 @@ public class UnexpectedStatusWordException extends AbstractApduException {
    * Builds a new exception embedding card response data.
    *
    * @param cardResponseApi The card responses received so far.
+   * @param isCardResponseComplete True if the number responses equals the number of requests
+   *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
    * @since 1.0
    */
-  public UnexpectedStatusWordException(CardResponseApi cardResponseApi, String message) {
-    super(cardResponseApi, message);
+  public UnexpectedStatusWordException(
+      CardResponseApi cardResponseApi, boolean isCardResponseComplete, String message) {
+    super(cardResponseApi, isCardResponseComplete, message);
   }
 
   /**
    * Builds a new exception embedding card response data with the originating exception.
    *
    * @param cardResponseApi The card responses received so far.
+   * @param isCardResponseComplete True if the number responses equals the number of requests
+   *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
    * @param cause The cause
    * @since 1.0
    */
   public UnexpectedStatusWordException(
-      CardResponseApi cardResponseApi, String message, Throwable cause) {
-    super(cardResponseApi, message, cause);
+      CardResponseApi cardResponseApi,
+      boolean isCardResponseComplete,
+      String message,
+      Throwable cause) {
+    super(cardResponseApi, isCardResponseComplete, message, cause);
   }
 }

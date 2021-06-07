@@ -1,8 +1,8 @@
 #!groovy
 pipeline {
   environment {
-    PROJECT_NAME = "calypsonet-terminal-card"
-    PROJECT_BOT_NAME = "Calypsonet Bot"
+    PROJECT_NAME = "keyple-java-card-api"
+    PROJECT_BOT_NAME = "Eclipse Keyple Bot"
   }
   agent { kubernetes { yaml javaBuilder('2.0') } }
   stages {

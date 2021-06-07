@@ -12,7 +12,7 @@
 package org.calypsonet.terminal.card;
 
 /**
- * Defines the physical channel management policy.
+ * Policy for managing the physical channel after a card request is executed.
  *
  * @since 1.0
  */

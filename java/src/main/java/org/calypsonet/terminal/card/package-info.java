@@ -1,6 +1,5 @@
 /**
- * Card API provided defined by the <a href="https://calypsonet.org">Calypso Networks
- * Association</a>
+ * Components implemented by a reader module.
  *
  * @since 1.0
  */

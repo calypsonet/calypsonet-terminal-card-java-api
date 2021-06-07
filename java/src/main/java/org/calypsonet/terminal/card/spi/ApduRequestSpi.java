@@ -14,7 +14,7 @@ package org.calypsonet.terminal.card.spi;
 import java.util.Set;
 
 /**
- * Data to build and manage an APDU command to be sent to a card.
+ * Data to build a single APDU command to be sent to a card.
  *
  * @see org.calypsonet.terminal.card.ApduResponseApi
  * @since 1.0
@@ -22,26 +22,26 @@ import java.util.Set;
 public interface ApduRequestSpi {
 
   /**
-   * Gets the name of this APDU request.
-   *
-   * @return Null if no name has been defined.
-   * @since 1.0
-   */
-  String getName();
-
-  /**
    * Gets the APDU bytes to be sent to the card.
    *
    * @return A array of at least 4 bytes.
    * @since 1.0
    */
-  byte[] getBytes();
+  byte[] getApdu();
 
   /**
    * Gets the list of status words that must be considered successful for the APDU.
    *
-   * @return An not empty Set containing at least 9000h.
+   * @return A set of integer values containing at least 9000h.
    * @since 1.0
    */
   Set<Integer> getSuccessfulStatusWords();
+
+  /**
+   * Gets the information about this APDU request (e.g. command name).
+   *
+   * @return Null if no information has been defined.
+   * @since 1.0
+   */
+  String getInfo();
 }
