@@ -4,7 +4,6 @@
 plugins {
     `java`
     id("com.diffplug.spotless") version "5.10.2"
-    id("org.sonarqube") version "3.1"
     jacoco
 }
 buildscript {
@@ -14,7 +13,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.eclipse.keyple:keyple-gradle:0.2.+")
+        classpath("org.eclipse.keyple:keyple-gradle:0.2.4")
     }
 }
 apply(plugin = "org.eclipse.keyple")
@@ -26,7 +25,6 @@ repositories {
     mavenLocal()
     maven(url = "https://repo.eclipse.org/service/local/repositories/maven_central/content")
     mavenCentral()
-    maven(url = "https://oss.sonatype.org/content/repositories/snapshots")
 }
 dependencies {
     testImplementation("junit:junit:4.13.2")
@@ -68,19 +66,6 @@ tasks {
             xml.isEnabled = true
             csv.isEnabled = false
             html.isEnabled = true
-        }
-    }
-    sonarqube {
-        properties {
-            property("sonar.projectKey", "eclipse_" + project.name)
-            property("sonar.organization", "eclipse")
-            property("sonar.host.url", "https://sonarcloud.io")
-            property("sonar.login", System.getenv("SONAR_LOGIN"))
-            System.getenv("BRANCH_NAME")?.let {
-                if (!"main".equals(it)) {
-                    property("sonar.branch.name", it)
-                }
-            }
         }
     }
 }
