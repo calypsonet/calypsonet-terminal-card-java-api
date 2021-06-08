@@ -1,5 +1,5 @@
 /* **************************************************************************************
- * Copyright (c) 2021 Calypso Networks Association https://www.calypsonet-asso.org/
+ * Copyright (c) 2021 Calypso Networks Association https://calypsonet.org/
  *
  * See the NOTICE file(s) distributed with this work for additional information
  * regarding copyright ownership.
@@ -39,6 +39,8 @@ public interface ApduRequestSpi {
 
   /**
    * Gets the information about this APDU request (e.g. command name).
+   *
+   * <p>These information are intended to improve the logging.
    *
    * @return Null if no information has been defined.
    * @since 1.0

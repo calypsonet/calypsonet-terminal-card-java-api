@@ -1,5 +1,5 @@
 /* **************************************************************************************
- * Copyright (c) 2021 Calypso Networks Association https://www.calypsonet-asso.org/
+ * Copyright (c) 2021 Calypso Networks Association https://calypsonet.org/
  *
  * See the NOTICE file(s) distributed with this work for additional information
  * regarding copyright ownership.
@@ -45,6 +45,7 @@ public interface ProxyReaderApi {
    * @param cardRequest The card request.
    * @param channelControl The channel control policy to apply.
    * @return A not null reference.
+   * @throws IllegalArgumentException If one of the provided parameters is null.
    * @throws ReaderBrokenCommunicationException If the communication with the reader has failed.
    * @throws CardBrokenCommunicationException If the communication with the card has failed.
    * @throws UnexpectedStatusWordException If any of the APDUs returned an unexpected status word

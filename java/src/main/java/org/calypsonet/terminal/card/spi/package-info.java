@@ -1,5 +1,5 @@
 /**
- * Components implemented by a card extension module.
+ * SPIs to be implemented by a card extension module.
  *
  * @since 1.0
  */

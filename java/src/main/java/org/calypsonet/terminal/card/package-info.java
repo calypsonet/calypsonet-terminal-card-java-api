@@ -1,5 +1,5 @@
 /**
- * Components implemented by a reader module.
+ * APIs provided by a reader module.
  *
  * @since 1.0
  */

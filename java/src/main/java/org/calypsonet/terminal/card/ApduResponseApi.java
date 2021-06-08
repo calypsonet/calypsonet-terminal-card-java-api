@@ -1,5 +1,5 @@
 /* **************************************************************************************
- * Copyright (c) 2021 Calypso Networks Association https://www.calypsonet-asso.org/
+ * Copyright (c) 2021 Calypso Networks Association https://calypsonet.org/
  *
  * See the NOTICE file(s) distributed with this work for additional information
  * regarding copyright ownership.
@@ -14,7 +14,7 @@ package org.calypsonet.terminal.card;
 import java.io.Serializable;
 
 /**
- * Data received in response to an APDU command
+ * Data received in response to an APDU command.
  *
  * <p>Consists in a data part of variable length and a status word (SW1SW2).
  *
