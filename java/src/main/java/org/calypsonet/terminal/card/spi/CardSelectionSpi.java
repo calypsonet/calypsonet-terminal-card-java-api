@@ -14,7 +14,7 @@ package org.calypsonet.terminal.card.spi;
 import org.calypsonet.terminal.card.CardSelectionResponseApi;
 
 /**
- * Extension of the selection service for a specific card extension.
+ * Extension of the card selection manager for a specific card extension.
  *
  * <p>Provides the {@link CardSelectionRequestSpi} and interprets the result to provide a {@link
  * SmartCardSpi}.
