@@ -42,7 +42,8 @@ public interface CardSelectionSpi {
    *
    * @param cardSelectionResponseApi The card selection response.
    * @return A not null reference.
+   * @throws ParseException If the card selection response parsing failed.
    * @since 1.0
    */
-  SmartCardSpi parse(CardSelectionResponseApi cardSelectionResponseApi);
+  SmartCardSpi parse(CardSelectionResponseApi cardSelectionResponseApi) throws ParseException;
 }
