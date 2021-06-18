@@ -20,5 +20,5 @@ scm:
   developerConnection: scm:git:https://github.com/calypsonet/calypsonet-terminal-card-java-api.git
   url: https://github.com/calypsonet/calypsonet-terminal-card-java-api
 ciManagement:
-#  system: Jenkins
-#  url: https://ci.eclipse.org/keyple/job/Keyple/job/keyple-java-card-api/
+  system: GitHub Actions
+  url: https://github.com/calypsonet/calypsonet-terminal-card-java-api/actions
