@@ -38,6 +38,7 @@ public class CardApiPropertiesTest {
   @Test
   public void versionIsCorrectlyWritten() {
     String apiVersion = CardApiProperties.VERSION;
-    assertThat(apiVersion).isEqualTo(libVersion).matches("\\d+\\.\\d+");
+    assertThat(apiVersion).matches("\\d+\\.\\d+");
+    assertThat(libVersion).startsWith(apiVersion);
   }
 }
