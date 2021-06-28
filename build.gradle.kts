@@ -11,7 +11,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.eclipse.keyple:keyple-gradle:0.2.+")
+        classpath("org.eclipse.keyple:keyple-gradle:0.2.+") { isChanging = true }
     }
 }
 apply(plugin = "org.eclipse.keyple")
@@ -45,7 +45,7 @@ tasks {
     spotless {
         java {
             target("src/**/*.java")
-            licenseHeaderFile("gradle/license_header.txt")
+            licenseHeaderFile("${project.rootDir}/LICENSE_HEADER")
             importOrder("java", "javax", "org", "com", "")
             removeUnusedImports()
             googleJavaFormat()
