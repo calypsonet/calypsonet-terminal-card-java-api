@@ -24,7 +24,7 @@ public interface ApduRequestSpi {
   /**
    * Gets the APDU bytes to be sent to the card.
    *
-   * @return A array of at least 4 bytes.
+   * @return A array of at least 5 bytes.
    * @since 1.0.0
    */
   byte[] getApdu();
