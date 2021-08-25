@@ -22,13 +22,6 @@ http://www.eclipse.org/legal/epl-2.0.
 
 SPDX-License-Identifier: EPL-2.0
 
-## Contributors
-
-* Pierre Terrée 
-* Jean-Pierre Fortune
-* Andrei Cristea
-* Ludovic Teixeira Costa
-   
 ## Third-party Content
 
 No third-party content.
