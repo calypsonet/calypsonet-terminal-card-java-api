@@ -39,7 +39,7 @@ import java.util.Set;
  * The selection by DF Name is governed by standardized elements such as the AID and the different
  * values of FileOccurrence, FileControlInformation.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public interface CardSelectorSpi {
 
@@ -47,7 +47,7 @@ public interface CardSelectorSpi {
    * Gets the card protocol name.
    *
    * @return Null if no card protocol has been set.
-   * @since 1.0
+   * @since 1.0.0
    */
   String getCardProtocol();
 
@@ -55,7 +55,7 @@ public interface CardSelectorSpi {
    * Gets the regular expression to be applied to the card's power-on data.
    *
    * @return Null if no power-on data regex has been set.
-   * @since 1.0
+   * @since 1.0.0
    */
   String getPowerOnDataRegex();
 
@@ -63,7 +63,7 @@ public interface CardSelectorSpi {
    * Gets the ISO7816-4 Application Identifier (AID).
    *
    * @return Null if no AID has been set.
-   * @since 1.0
+   * @since 1.0.0
    */
   byte[] getAid();
 
@@ -72,7 +72,7 @@ public interface CardSelectorSpi {
    * list.
    *
    * @return A not null reference.
-   * @since 1.0
+   * @since 1.0.0
    */
   FileOccurrence getFileOccurrence();
 
@@ -81,7 +81,7 @@ public interface CardSelectorSpi {
    * command.
    *
    * @return A not null reference.
-   * @since 1.0
+   * @since 1.0.0
    */
   FileControlInformation getFileControlInformation();
 
@@ -89,7 +89,7 @@ public interface CardSelectorSpi {
    * Gets the list of successful selection status words.
    *
    * @return A set of integer values containing at least 9000h.
-   * @since 1.0
+   * @since 1.0.0
    */
   Set<Integer> getSuccessfulSelectionStatusWords();
 
@@ -97,31 +97,31 @@ public interface CardSelectorSpi {
    * Navigation options through the different applications contained in the card according to the
    * ISO7816-4 standard.
    *
-   * @since 1.0
+   * @since 1.0.0
    */
   enum FileOccurrence {
     /**
      * First occurrence.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     FIRST,
     /**
      * Last occurrence.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     LAST,
     /**
      * Next occurrence.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     NEXT,
     /**
      * Previous occurrence.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     PREVIOUS
   }
@@ -130,31 +130,31 @@ public interface CardSelectorSpi {
    * Types of templates available in return for the Select Application command, according to the
    * ISO7816-4 standard.
    *
-   * @since 1.0
+   * @since 1.0.0
    */
   enum FileControlInformation {
     /**
      * File control information.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     FCI,
     /**
      * File control parameters.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     FCP,
     /**
      * File management data.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     FMD,
     /**
      * No response expected.
      *
-     * @since 1.0
+     * @since 1.0.0
      */
     NO_RESPONSE
   }

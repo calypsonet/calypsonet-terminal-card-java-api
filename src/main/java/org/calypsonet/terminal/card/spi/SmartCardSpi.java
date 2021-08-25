@@ -18,6 +18,6 @@ package org.calypsonet.terminal.card.spi;
  *
  * <p>An adapter of this interface must also implement <b>SmartCard</b>.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public interface SmartCardSpi {}

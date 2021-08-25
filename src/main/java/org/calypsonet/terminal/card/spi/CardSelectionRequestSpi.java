@@ -18,7 +18,7 @@ package org.calypsonet.terminal.card.spi;
  * executed after the card selection when successful.
  *
  * @see org.calypsonet.terminal.card.CardSelectionResponseApi
- * @since 1.0
+ * @since 1.0.0
  */
 public interface CardSelectionRequestSpi {
 
@@ -26,7 +26,7 @@ public interface CardSelectionRequestSpi {
    * Gets the card selector.
    *
    * @return A not null reference.
-   * @since 1.0
+   * @since 1.0.0
    */
   CardSelectorSpi getCardSelector();
 
@@ -34,7 +34,7 @@ public interface CardSelectionRequestSpi {
    * Gets the card request.
    *
    * @return Null if no card request has been defined.
-   * @since 1.0
+   * @since 1.0.0
    */
   CardRequestSpi getCardRequest();
 }

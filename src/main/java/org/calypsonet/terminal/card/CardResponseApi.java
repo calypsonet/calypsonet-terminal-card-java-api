@@ -30,7 +30,7 @@ import java.util.List;
  * org.calypsonet.terminal.card.spi.CardRequestSpi#stopOnUnsuccessfulStatusWord()}.
  *
  * @see org.calypsonet.terminal.card.spi.CardRequestSpi
- * @since 1.0
+ * @since 1.0.0
  */
 public interface CardResponseApi extends Serializable {
 
@@ -38,7 +38,7 @@ public interface CardResponseApi extends Serializable {
    * Gets a list of all responses received to the executed APDU requests.
    *
    * @return A not null list, empty if there is no response.
-   * @since 1.0
+   * @since 1.0.0
    */
   List<ApduResponseApi> getApduResponses();
 
@@ -46,7 +46,7 @@ public interface CardResponseApi extends Serializable {
    * Gets the state of the logical channel following the execution of the request.
    *
    * @return True if the logical channel is open.
-   * @since 1.0
+   * @since 1.0.0
    */
   boolean isLogicalChannelOpen();
 }

@@ -14,7 +14,7 @@ package org.calypsonet.terminal.card;
  * Exception carrying response data received from the card until an unexpected APDU status word is
  * received.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public class UnexpectedStatusWordException extends AbstractApduException {
 
@@ -25,7 +25,7 @@ public class UnexpectedStatusWordException extends AbstractApduException {
    * @param isCardResponseComplete True if the number responses equals the number of requests
    *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
-   * @since 1.0
+   * @since 1.0.0
    */
   public UnexpectedStatusWordException(
       CardResponseApi cardResponseApi, boolean isCardResponseComplete, String message) {
@@ -40,7 +40,7 @@ public class UnexpectedStatusWordException extends AbstractApduException {
    *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
    * @param cause The cause
-   * @since 1.0
+   * @since 1.0.0
    */
   public UnexpectedStatusWordException(
       CardResponseApi cardResponseApi,

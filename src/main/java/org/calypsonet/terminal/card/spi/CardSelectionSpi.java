@@ -24,7 +24,7 @@ import org.calypsonet.terminal.card.CardSelectionResponseApi;
  *
  * <p>An adapter of this interface must also implement <b>CardSelection</b>.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public interface CardSelectionSpi {
 
@@ -32,7 +32,7 @@ public interface CardSelectionSpi {
    * Gets the card selection request containing the selection data prepared for this selection.
    *
    * @return A not null reference.
-   * @since 1.0
+   * @since 1.0.0
    */
   CardSelectionRequestSpi getCardSelectionRequest();
 
@@ -43,7 +43,7 @@ public interface CardSelectionSpi {
    * @param cardSelectionResponseApi The card selection response.
    * @return A not null reference.
    * @throws ParseException If the card selection response parsing failed.
-   * @since 1.0
+   * @since 1.0.0
    */
   SmartCardSpi parse(CardSelectionResponseApi cardSelectionResponseApi) throws ParseException;
 }

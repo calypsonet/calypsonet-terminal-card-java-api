@@ -15,7 +15,7 @@ package org.calypsonet.terminal.card;
  * Generic exception carrying response data received from the card until a communication failure
  * occurs or an unexpected APDU status word is received.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public class AbstractApduException extends Exception {
 
@@ -29,7 +29,7 @@ public class AbstractApduException extends Exception {
    * @param isCardResponseComplete True if the number responses equals the number of requests
    *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message the message to identify the exception context
-   * @since 1.0
+   * @since 1.0.0
    */
   public AbstractApduException(
       CardResponseApi cardResponseApi, boolean isCardResponseComplete, String message) {
@@ -46,7 +46,7 @@ public class AbstractApduException extends Exception {
    *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
    * @param cause The cause
-   * @since 1.0
+   * @since 1.0.0
    */
   public AbstractApduException(
       CardResponseApi cardResponseApi,
@@ -62,7 +62,7 @@ public class AbstractApduException extends Exception {
    * Gets the response data received so far.
    *
    * @return A not null reference.
-   * @since 1.0
+   * @since 1.0.0
    */
   public CardResponseApi getCardResponse() {
     return cardResponseApi;
@@ -73,7 +73,7 @@ public class AbstractApduException extends Exception {
    * org.calypsonet.terminal.card.spi.CardRequestSpi} have been received.
    *
    * @return True if all expected responses have been received.
-   * @since 1.0
+   * @since 1.0.0
    */
   boolean isCardResponseComplete() {
     return isCardResponseComplete;

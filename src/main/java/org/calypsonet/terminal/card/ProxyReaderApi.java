@@ -23,7 +23,7 @@ import org.calypsonet.terminal.card.spi.CardRequestSpi;
  *
  * <p>To use this API, simply cast a <b>CardReader</b> as a <b>ProxyReaderApi</b>.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public interface ProxyReaderApi {
 
@@ -50,7 +50,7 @@ public interface ProxyReaderApi {
    * @throws CardBrokenCommunicationException If the communication with the card has failed.
    * @throws UnexpectedStatusWordException If any of the APDUs returned an unexpected status word
    *     and the card request specified the need to check them.
-   * @since 1.0
+   * @since 1.0.0
    */
   CardResponseApi transmitCardRequest(CardRequestSpi cardRequest, ChannelControl channelControl)
       throws ReaderBrokenCommunicationException, CardBrokenCommunicationException,
@@ -60,7 +60,7 @@ public interface ProxyReaderApi {
    * Releases the communication channel previously established with the card.
    *
    * @throws ReaderBrokenCommunicationException If the communication with the reader has failed.
-   * @since 1.0
+   * @since 1.0.0
    */
   void releaseChannel() throws ReaderBrokenCommunicationException;
 }

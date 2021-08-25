@@ -18,7 +18,7 @@ package org.calypsonet.terminal.card;
  * been executed afterwards.
  *
  * @see org.calypsonet.terminal.card.spi.CardSelectionRequestSpi
- * @since 1.0
+ * @since 1.0.0
  */
 public interface CardSelectionResponseApi {
 
@@ -39,7 +39,7 @@ public interface CardSelectionResponseApi {
    * which can be either a hexadecimal string or any other relevant information.
    *
    * @return Null if no power-on data is available.
-   * @since 1.0
+   * @since 1.0.0
    */
   String getPowerOnData();
 
@@ -48,7 +48,7 @@ public interface CardSelectionResponseApi {
    * Application</b> command.
    *
    * @return Null if no Select Application command was performed.
-   * @since 1.0
+   * @since 1.0.0
    */
   ApduResponseApi getSelectApplicationResponse();
 
@@ -56,7 +56,7 @@ public interface CardSelectionResponseApi {
    * Gives the selection process status.
    *
    * @return True if the card inserted matches the selection filters.
-   * @since 1.0
+   * @since 1.0.0
    */
   boolean hasMatched();
 
@@ -66,7 +66,7 @@ public interface CardSelectionResponseApi {
    * org.calypsonet.terminal.card.spi.CardSelectionRequestSpi}.
    *
    * @return Null if no requests have been set.
-   * @since 1.0
+   * @since 1.0.0
    */
   CardResponseApi getCardResponse();
 }

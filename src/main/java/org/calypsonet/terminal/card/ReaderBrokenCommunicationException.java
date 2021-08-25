@@ -15,7 +15,7 @@ package org.calypsonet.terminal.card;
  * Exception carrying response data received from the card until a communication failure with the
  * reader occurs.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public class ReaderBrokenCommunicationException extends AbstractApduException {
 
@@ -26,7 +26,7 @@ public class ReaderBrokenCommunicationException extends AbstractApduException {
    * @param isCardResponseComplete True if the number responses equals the number of requests
    *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
-   * @since 1.0
+   * @since 1.0.0
    */
   public ReaderBrokenCommunicationException(
       CardResponseApi cardResponseApi, boolean isCardResponseComplete, String message) {
@@ -41,7 +41,7 @@ public class ReaderBrokenCommunicationException extends AbstractApduException {
    *     present in the original {@link org.calypsonet.terminal.card.spi.CardRequestSpi}.
    * @param message Message to identify the exception context.
    * @param cause The cause
-   * @since 1.0
+   * @since 1.0.0
    */
   public ReaderBrokenCommunicationException(
       CardResponseApi cardResponseApi,

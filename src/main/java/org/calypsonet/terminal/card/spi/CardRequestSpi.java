@@ -20,7 +20,7 @@ import java.util.List;
  * to stop processing in case of an unexpected status word in response to one of the APDUs.
  *
  * @see org.calypsonet.terminal.card.ApduResponseApi
- * @since 1.0
+ * @since 1.0.0
  */
 public interface CardRequestSpi {
 
@@ -28,7 +28,7 @@ public interface CardRequestSpi {
    * Gets the list of {@link ApduRequestSpi}.
    *
    * @return A not empty list.
-   * @since 1.0
+   * @since 1.0.0
    */
   List<ApduRequestSpi> getApduRequests();
 
@@ -37,7 +37,7 @@ public interface CardRequestSpi {
    * received.
    *
    * @return True if the process must stop at the first unsuccessful status word received.
-   * @since 1.0
+   * @since 1.0.0
    */
   boolean stopOnUnsuccessfulStatusWord();
 }

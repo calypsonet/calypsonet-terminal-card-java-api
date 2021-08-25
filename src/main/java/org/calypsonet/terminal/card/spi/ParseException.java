@@ -17,13 +17,13 @@ package org.calypsonet.terminal.card.spi;
  * <p>The most likely reason is that the select application command returned an invalid FCI
  * structure.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 public class ParseException extends Exception {
 
   /**
    * @param message The message to identify the exception context.
-   * @since 1.0
+   * @since 1.0.0
    */
   public ParseException(String message) {
     super(message);
@@ -32,7 +32,7 @@ public class ParseException extends Exception {
   /**
    * @param message The message to identify the exception context.
    * @param cause The cause.
-   * @since 1.0
+   * @since 1.0.0
    */
   public ParseException(String message, Throwable cause) {
     super(message, cause);
