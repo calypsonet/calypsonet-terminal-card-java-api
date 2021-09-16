@@ -1,11 +1,3 @@
-## Welcome Calypsonet Terminal Card Java API
-
-[Click here to view the Javadoc associated to this API.](https://calypsonet.github.io/calypsonet-terminal-card-java-api/1.0)
-
-{% comment %}
-    Bullet list menu of pages at the current level.
-
-    Use pages at the current level excluding the page itself.
-{% endcomment %}
+## Calypsonet Terminal Card Java API
 
 {% include_relative list_versions.md %}
