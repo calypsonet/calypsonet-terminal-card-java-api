@@ -20,4 +20,4 @@ C++ implementation:
 
 ## API class diagram
 
-[API class diagram](src/main/uml/api_class_diagram.svg)
+![API class diagram](src/main/uml/api_class_diagram.svg)
