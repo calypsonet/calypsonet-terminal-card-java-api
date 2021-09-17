@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.calypsonet.terminal.card"},{"l":"org.calypsonet.terminal.card.spi"}]
