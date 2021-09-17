@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Computing the version..."
+echo "Compute the current API version..."
 
 version=$1
 
@@ -9,38 +9,43 @@ then
   version="`grep "^version" gradle.properties | cut -d= -f2 | tr -d "[:space:]"`-SNAPSHOT"
 fi
 
-echo "Computed version: $version"
+echo "Computed current API version: $version"
 
 repository_name=`git rev-parse --show-toplevel | xargs basename`
 echo $repository_name
 
-echo "Cloning $repository_name..."
+echo "Clone $repository_name..."
 git clone https://github.com/calypsonet/$repository_name.git
 
 cd $repository_name
 
-echo "Checkouting gh-pages branch..."
+echo "Checkout gh-pages branch..."
 git checkout -f gh-pages
 
-echo "Deleting existing SNAPSHOT directory..."
+echo "Delete existing SNAPSHOT directory..."
 rm -rf *-SNAPSHOT
 
-echo "Creating target directories $version/api..."
-mkdir -p $version/api
+echo "Create target directory $version..."
+mkdir $version
 
-echo "Copying javadoc and home page files..."
-cp -rf ../build/docs/javadoc/* $version/api/
-cp -rf ../src/main/javadoc/home/* $version/
+echo "Copy javadoc and uml files..."
+cp -rf ../build/docs/javadoc/* $version/
+cp -rf ../src/main/uml/api_class_diagram.svg $version/
 
-echo "Updating versions list..."
-rm list_versions.md
-
+echo "Update versions list..."
+echo "| Version | Documents |" > list_versions.md
+echo "|:---:|---|" >> list_versions.md
 for directory in `ls -rd */ | cut -f1 -d'/'`
-do 
-  echo "* [$directory]($directory)" >> list_versions.md
+do
+  diagram=""
+  if [ -e $directory/api_class_diagram.svg ]
+  then
+    diagram=" - [API class diagram]($directory/api_class_diagram.svg)"
+  fi
+  echo "| $directory | [API documentation]($directory)$diagram |" >> list_versions.md
 done
 
-echo "Existing versions:"
+echo "Computed all versions:"
 cat list_versions.md
 
 cd ..
