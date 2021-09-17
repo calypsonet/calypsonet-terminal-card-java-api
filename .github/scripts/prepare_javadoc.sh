@@ -25,6 +25,9 @@ git checkout -f gh-pages
 echo "Delete existing SNAPSHOT directory..."
 rm -rf *-SNAPSHOT
 
+echo "Delete existing RC directories in case of final release..."
+rm -rf $version-rc*
+
 echo "Create target directory $version..."
 mkdir $version
 
@@ -40,7 +43,7 @@ do
   diagram=""
   if [ -e $directory/api_class_diagram.svg ]
   then
-    diagram=" - [API class diagram]($directory/api_class_diagram.svg)"
+    diagram=", [API class diagram]($directory/api_class_diagram.svg)"
   fi
   echo "| $directory | [API documentation]($directory)$diagram |" >> list_versions.md
 done
