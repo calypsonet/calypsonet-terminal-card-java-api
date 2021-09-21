@@ -16,9 +16,13 @@
     <div class="wrapper">
       <header>
         <p><img src="{{ "/" | absolute_url }}/media/logo.svg" width="50%" alt="Logo" /></p>
-        <p><strong>API DOCUMENTATION</strong></p>
+        <p>
+          <strong>API DOCUMENTATION</strong><br>
+          {{ site.title }}
+        </p>
       </header>
       <section>
+        <h2>{{ site.title }}</h2>
         {{ content }}
       </section>
       <footer>
