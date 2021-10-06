@@ -1,6 +1,6 @@
 @startuml
 title
-        Calypsonet - calypsonet-terminal-card-java-api - 1.0 (15/06/2021)
+        Calypsonet - calypsonet-terminal-card-java-api - 1.0.+ (15/06/2021)
 end title
 
 ' == THEME ==
