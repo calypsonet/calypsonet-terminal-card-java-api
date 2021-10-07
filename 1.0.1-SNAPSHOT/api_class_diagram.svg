@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2747.5px" preserveAspectRatio="none" style="width:4260px;height:2747px;background:#FFFFFF;" version="1.1" viewBox="0 0 4260 2747" width="4260px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="45" lengthAdjust="spacing" textLength="1337.5" x="1445" y="46.7139">Calypsonet - calypsonet-terminal-card-java-api - 1.0.+ (15/06/2021)</text><!--MD5=[7442f3b126ee602ae02566c1a49e158a]
+cluster api--><polygon fill="#F8F9F9" points="40,71.6016,555,71.6016,572.5,130.625,4217.5,130.625,4217.5,2731.6016,40,2731.6016,40,71.6016" style="stroke:#000000;stroke-width:3.75;"/><line style="stroke:#000000;stroke-width:3.75;" x1="40" x2="572.5" y1="130.625" y2="130.625"/><text fill="#000000" font-family="sans-serif" font-size="35" font-weight="bold" lengthAdjust="spacing" textLength="500" x="50" y="112.9346">org.calypsonet.terminal.card</text><!--MD5=[f7e0e2453c87923036c1ac2adfb9cbf0]
+cluster spi--><polygon fill="#F2F3F4" points="120,201.6016,187.5,201.6016,205,260.625,2185,260.625,2185,2236.6016,120,2236.6016,120,201.6016" style="stroke:#000000;stroke-width:3.75;"/><line style="stroke:#000000;stroke-width:3.75;" x1="120" x2="205" y1="260.625" y2="260.625"/><text fill="#000000" font-family="sans-serif" font-size="35" font-weight="bold" lengthAdjust="spacing" textLength="52.5" x="130" y="242.9346">spi</text><!--MD5=[f120634a3fc1b9906ef904c08b168a9d]
+class ProxyReaderApi--><rect codeLine="97" fill="#FEFECE" height="292.9492" id="ProxyReaderApi" style="stroke:#D4AC0D;stroke-width:3.75;" width="562.5" x="2246.25" y="1239.1016"/><ellipse cx="2390.625" cy="1279.1016" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M2393.125,1271.6016 L2393.125,1286.6016 L2398.125,1286.6016 L2399.3359,1286.6016 L2400.625,1288.1641 L2400.625,1289.1016 L2400.625,1290.0391 L2399.3359,1291.6016 L2398.125,1291.6016 L2383.125,1291.6016 L2381.9141,1291.6016 L2380.625,1290.0391 L2380.625,1289.1016 L2380.625,1288.1641 L2381.9141,1286.6016 L2383.125,1286.6016 L2388.125,1286.6016 L2388.125,1271.6016 L2383.125,1271.6016 L2381.9141,1271.6016 L2380.625,1270.0391 L2380.625,1269.1016 L2380.625,1268.1641 L2381.9141,1266.6016 L2383.125,1266.6016 L2398.125,1266.6016 L2399.3359,1266.6016 L2400.625,1268.1641 L2400.625,1269.1016 L2400.625,1270.0391 L2399.3359,1271.6016 L2398.125,1271.6016 L2393.125,1271.6016 Z " fill="#000000"/><ellipse cx="2454.375" cy="1277.8516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="225" x="2469.375" y="1291.377">ProxyReaderApi</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="2248.75" x2="2806.25" y1="1319.1016" y2="1319.1016"/><line style="stroke:#D4AC0D;stroke-width:2.5;" x1="2248.75" x2="2806.25" y1="1339.1016" y2="1339.1016"/><ellipse cx="2273.75" cy="1366.6016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="497.5" x="2296.25" y="1377.6489">CardResponseApi transmitCardRequest (</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="365" x="2356.25" y="1412.2388">CardRequestSpi cardRequest,</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="380" x="2356.25" y="1446.8286">ChannelControl channelControl)</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="0" x="2303.75" y="1481.4185"/><ellipse cx="2273.75" cy="1504.9609" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="272.5" x="2296.25" y="1516.0083">void releaseChannel ()</text><!--MD5=[ee0d3336d8d2c9dd88a5ad188defe636]
+class ChannelControl--><rect codeLine="105" fill="#FEFECE" height="189.1797" id="ChannelControl" style="stroke:#D4AC0D;stroke-width:3.75;" width="325" x="2365" y="785.3516"/><ellipse cx="2402.5" cy="825.3516" fill="#EB937F" rx="27.5" ry="27.5" style="stroke:#EB93DF;stroke-width:2.5;"/><path d="M2398.75,827.8516 L2398.75,832.8516 L2408.75,832.8516 L2408.75,830.3516 L2408.75,829.1406 L2410.3125,827.8516 L2411.25,827.8516 L2412.1875,827.8516 L2413.75,829.1406 L2413.75,830.3516 L2413.75,837.8516 L2393.75,837.8516 L2392.5391,837.8516 L2391.25,836.2891 L2391.25,835.3516 L2391.25,834.4141 L2392.5391,832.8516 L2393.75,832.8516 L2393.75,832.8516 L2393.75,817.8516 L2393.75,817.8516 L2392.5391,817.8516 L2391.25,816.2891 L2391.25,815.3516 L2391.25,814.4141 L2392.5391,812.8516 L2393.75,812.8516 L2413.75,812.8516 L2413.75,820.3516 L2413.75,821.5625 L2412.1875,822.8516 L2411.25,822.8516 L2410.3125,822.8516 L2408.75,821.5625 L2408.75,820.3516 L2408.75,817.8516 L2398.75,817.8516 L2398.75,822.8516 L2401.25,822.8516 L2401.25,821.6406 L2401.25,821.6406 L2402.8125,820.3516 L2403.75,820.3516 L2404.6875,820.3516 L2406.25,821.6406 L2406.25,822.8516 L2406.25,827.8516 L2406.25,829.0625 L2404.6875,830.3516 L2404.6875,830.3516 L2403.75,830.3516 L2402.8125,830.3516 L2401.25,829.0625 L2401.25,829.0625 L2401.25,827.8516 L2398.75,827.8516 Z " fill="#000000"/><ellipse cx="2450" cy="824.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="217.5" x="2465" y="837.627">ChannelControl</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="2367.5" x2="2687.5" y1="865.3516" y2="865.3516"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="145" x="2380" y="903.8989">KEEP_OPEN</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="182.5" x="2380" y="938.4888">CLOSE_AFTER</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="2367.5" x2="2687.5" y1="954.5313" y2="954.5313"/><!--MD5=[c0d9bbe2f46f90879b0aee291b4ddd3d]
+class AbstractApduException--><rect codeLine="211" fill="#F4ECF7" height="555.5469" id="AbstractApduException" style="stroke:#8E44AD;stroke-width:3.75;" width="577.5" x="2246.25" y="1726.6016"/><ellipse cx="2351.25" cy="1776.8359" fill="#A9DCDF" rx="27.5" ry="27.5" style="stroke:#A9DCDF;stroke-width:2.5;"/><path d="M2355.625,1780.5859 L2347.3828,1780.5859 L2346.2891,1783.0859 L2346.2891,1783.0859 L2347.4609,1783.0859 L2348.75,1784.6484 L2348.75,1785.5859 L2348.75,1786.5234 L2347.4609,1788.0859 L2346.2891,1788.0859 L2341.5625,1788.0859 L2340.0391,1788.0859 L2338.75,1786.5234 L2338.75,1785.5859 L2338.75,1784.6484 L2340.0391,1783.0859 L2341.5625,1783.0859 L2347.3438,1768.0859 L2345.1563,1768.0859 L2342.5391,1768.0859 L2341.25,1766.5234 L2341.25,1765.5859 L2341.25,1764.6484 L2342.5391,1763.0859 L2345.1563,1763.0859 L2354.3359,1763.0859 L2361.0547,1783.0859 L2362.4609,1783.0859 L2362.4609,1783.0859 L2363.75,1784.6484 L2363.75,1785.5859 L2363.75,1786.5234 L2362.4609,1788.0859 L2361.0547,1788.0859 L2356.3281,1788.0859 L2355.0391,1788.0859 L2353.75,1786.5234 L2353.75,1785.5859 L2353.75,1784.6484 L2355.0391,1783.0859 L2356.3281,1783.0859 L2356.3281,1783.0859 L2355.625,1780.5859 Z M2354.2578,1775.5859 L2351.25,1766.6406 L2348.6719,1775.5859 L2354.2578,1775.5859 Z " fill="#000000"/><ellipse cx="2413.75" cy="1775.5859" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="205" x="2486.25" y="1770.2441">&lt;&lt;Exception&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="320" x="2428.75" y="1807.9785">AbstractApduException</text><line style="stroke:#8E44AD;stroke-width:3.75;" x1="2248.75" x2="2821.25" y1="1827.0703" y2="1827.0703"/><line style="stroke:#8E44AD;stroke-width:2.5;" x1="2248.75" x2="2821.25" y1="1847.0703" y2="1847.0703"/><polygon fill="#FFFF44" points="2273.75,1862.0703,2283.75,1872.0703,2273.75,1882.0703,2263.75,1872.0703" style="stroke:#B38D22;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="305" x="2296.25" y="1885.6177">AbstractApduException (</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="452.5" x="2356.25" y="1920.2075">CardResponseApi cardResponseApi,</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="420" x="2356.25" y="1954.7974">boolean isCardResponseComplete,</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="197.5" x="2356.25" y="1989.3872">String message)</text><polygon fill="#FFFF44" points="2273.75,2000.4297,2283.75,2010.4297,2273.75,2020.4297,2263.75,2010.4297" style="stroke:#B38D22;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="305" x="2296.25" y="2023.9771">AbstractApduException (</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="452.5" x="2356.25" y="2058.5669">CardResponseApi cardResponseApi,</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="420" x="2356.25" y="2093.1567">boolean isCardResponseComplete,</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="195" x="2356.25" y="2127.7466">String message,</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="222.5" x="2356.25" y="2162.3364">Throwable cause)</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="0" x="2303.75" y="2196.9263"/><ellipse cx="2273.75" cy="2220.4688" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="472.5" x="2296.25" y="2231.5161">CardResponseApi getCardResponse ()</text><ellipse cx="2273.75" cy="2255.0586" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="440" x="2296.25" y="2266.106">boolean isCardResponseComplete ()</text><!--MD5=[aa6ba6f3ca2ecd56ccab2f9c90ece8a4]
+class ReaderBrokenCommunicationException--><rect codeLine="212" fill="#F4ECF7" height="258.3594" id="ReaderBrokenCommunicationException" style="stroke:#8E44AD;stroke-width:3.75;" width="997.5" x="961.25" y="2434.1016"/><ellipse cx="1156.875" cy="2474.1016" fill="#ADD1B2" rx="27.5" ry="27.5" style="stroke:#ADD1B2;stroke-width:2.5;"/><path d="M1161.875,2465.3516 Q1162.3828,2464.1016 1162.9688,2463.4766 Q1163.5547,2462.8516 1164.2188,2462.8516 Q1165.3906,2462.8516 1166.1328,2463.5547 Q1166.875,2464.2578 1166.875,2465.8984 L1166.875,2469.8047 Q1166.875,2471.4453 1166.1719,2472.1484 Q1165.4688,2472.8516 1164.375,2472.8516 Q1163.3984,2472.8516 1162.7734,2472.4219 Q1162.1484,2471.9922 1161.875,2470.8594 Q1161.7578,2470.0781 1161.3281,2469.6484 Q1160.5469,2468.8281 1159.1406,2468.3594 Q1157.7344,2467.8516 1156.3281,2467.8516 Q1154.5703,2467.8516 1153.0859,2468.5547 Q1151.6406,2469.2578 1150.5078,2470.8203 Q1149.375,2472.3828 1149.375,2474.5313 L1149.375,2476.8359 Q1149.375,2479.4141 1151.4844,2481.1328 Q1153.5938,2482.8516 1157.3438,2482.8516 Q1159.5703,2482.8516 1161.1328,2482.3438 Q1162.0313,2482.0703 1163.0469,2481.1719 Q1163.7109,2480.6641 1164.0625,2480.5078 Q1164.4141,2480.3516 1164.8438,2480.3516 Q1165.6641,2480.3516 1166.25,2481.0156 Q1166.875,2481.6406 1166.875,2482.5391 Q1166.875,2483.3984 1166.0156,2484.4141 Q1164.7656,2485.8984 1162.7734,2486.7188 Q1160.1563,2487.8516 1156.9531,2487.8516 Q1153.2031,2487.8516 1150.1953,2486.3672 Q1147.7734,2485.1953 1146.0547,2482.6563 Q1144.375,2480.1172 1144.375,2477.1094 L1144.375,2474.375 Q1144.375,2471.25 1145.8594,2468.5156 Q1147.3828,2465.7813 1150,2464.3359 Q1152.6563,2462.8516 1155.625,2462.8516 Q1157.4219,2462.8516 1158.9844,2463.4766 Q1160.5469,2464.1016 1161.875,2465.3516 Z " fill="#000000"/><ellipse cx="1220.625" cy="2472.8516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="557.5" x="1235.625" y="2486.377">ReaderBrokenCommunicationException</text><line style="stroke:#8E44AD;stroke-width:3.75;" x1="963.75" x2="1956.25" y1="2514.1016" y2="2514.1016"/><line style="stroke:#8E44AD;stroke-width:2.5;" x1="963.75" x2="1956.25" y1="2534.1016" y2="2534.1016"/><ellipse cx="988.75" cy="2561.6016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="932.5" x="1011.25" y="2572.6489">ReaderBrokenCommunicationException (CardResponseApi cardResponseApi</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="625" x="1071.25" y="2607.2388">boolean isCardResponseComplete, String message)</text><ellipse cx="988.75" cy="2630.7813" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="932.5" x="1011.25" y="2641.8286">ReaderBrokenCommunicationException (CardResponseApi cardResponseApi</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="852.5" x="1071.25" y="2676.4185">boolean isCardResponseComplete, String message, Throwable cause)</text><!--MD5=[e6757fe437aef25d7a30ee1e8a4a916b]
+class CardBrokenCommunicationException--><rect codeLine="213" fill="#F4ECF7" height="258.3594" id="CardBrokenCommunicationException" style="stroke:#8E44AD;stroke-width:3.75;" width="977.5" x="2046.25" y="2434.1016"/><ellipse cx="2249.375" cy="2474.1016" fill="#ADD1B2" rx="27.5" ry="27.5" style="stroke:#ADD1B2;stroke-width:2.5;"/><path d="M2254.375,2465.3516 Q2254.8828,2464.1016 2255.4688,2463.4766 Q2256.0547,2462.8516 2256.7188,2462.8516 Q2257.8906,2462.8516 2258.6328,2463.5547 Q2259.375,2464.2578 2259.375,2465.8984 L2259.375,2469.8047 Q2259.375,2471.4453 2258.6719,2472.1484 Q2257.9688,2472.8516 2256.875,2472.8516 Q2255.8984,2472.8516 2255.2734,2472.4219 Q2254.6484,2471.9922 2254.375,2470.8594 Q2254.2578,2470.0781 2253.8281,2469.6484 Q2253.0469,2468.8281 2251.6406,2468.3594 Q2250.2344,2467.8516 2248.8281,2467.8516 Q2247.0703,2467.8516 2245.5859,2468.5547 Q2244.1406,2469.2578 2243.0078,2470.8203 Q2241.875,2472.3828 2241.875,2474.5313 L2241.875,2476.8359 Q2241.875,2479.4141 2243.9844,2481.1328 Q2246.0938,2482.8516 2249.8438,2482.8516 Q2252.0703,2482.8516 2253.6328,2482.3438 Q2254.5313,2482.0703 2255.5469,2481.1719 Q2256.2109,2480.6641 2256.5625,2480.5078 Q2256.9141,2480.3516 2257.3438,2480.3516 Q2258.1641,2480.3516 2258.75,2481.0156 Q2259.375,2481.6406 2259.375,2482.5391 Q2259.375,2483.3984 2258.5156,2484.4141 Q2257.2656,2485.8984 2255.2734,2486.7188 Q2252.6563,2487.8516 2249.4531,2487.8516 Q2245.7031,2487.8516 2242.6953,2486.3672 Q2240.2734,2485.1953 2238.5547,2482.6563 Q2236.875,2480.1172 2236.875,2477.1094 L2236.875,2474.375 Q2236.875,2471.25 2238.3594,2468.5156 Q2239.8828,2465.7813 2242.5,2464.3359 Q2245.1563,2462.8516 2248.125,2462.8516 Q2249.9219,2462.8516 2251.4844,2463.4766 Q2253.0469,2464.1016 2254.375,2465.3516 Z " fill="#000000"/><ellipse cx="2313.125" cy="2472.8516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="522.5" x="2328.125" y="2486.377">CardBrokenCommunicationException</text><line style="stroke:#8E44AD;stroke-width:3.75;" x1="2048.75" x2="3021.25" y1="2514.1016" y2="2514.1016"/><line style="stroke:#8E44AD;stroke-width:2.5;" x1="2048.75" x2="3021.25" y1="2534.1016" y2="2534.1016"/><ellipse cx="2073.75" cy="2561.6016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="902.5" x="2096.25" y="2572.6489">CardBrokenCommunicationException (CardResponseApi cardResponseApi</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="625" x="2156.25" y="2607.2388">boolean isCardResponseComplete, String message)</text><ellipse cx="2073.75" cy="2630.7813" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="902.5" x="2096.25" y="2641.8286">CardBrokenCommunicationException (CardResponseApi cardResponseApi</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="852.5" x="2156.25" y="2676.4185">boolean isCardResponseComplete, String message, Throwable cause)</text><!--MD5=[a6bc7e572d7d352b602d88577660db31]
+class UnexpectedStatusWordException--><rect codeLine="214" fill="#F4ECF7" height="258.3594" id="UnexpectedStatusWordException" style="stroke:#8E44AD;stroke-width:3.75;" width="977.5" x="3111.25" y="2434.1016"/><ellipse cx="3346.875" cy="2474.1016" fill="#ADD1B2" rx="27.5" ry="27.5" style="stroke:#ADD1B2;stroke-width:2.5;"/><path d="M3351.875,2465.3516 Q3352.3828,2464.1016 3352.9688,2463.4766 Q3353.5547,2462.8516 3354.2188,2462.8516 Q3355.3906,2462.8516 3356.1328,2463.5547 Q3356.875,2464.2578 3356.875,2465.8984 L3356.875,2469.8047 Q3356.875,2471.4453 3356.1719,2472.1484 Q3355.4688,2472.8516 3354.375,2472.8516 Q3353.3984,2472.8516 3352.7734,2472.4219 Q3352.1484,2471.9922 3351.875,2470.8594 Q3351.7578,2470.0781 3351.3281,2469.6484 Q3350.5469,2468.8281 3349.1406,2468.3594 Q3347.7344,2467.8516 3346.3281,2467.8516 Q3344.5703,2467.8516 3343.0859,2468.5547 Q3341.6406,2469.2578 3340.5078,2470.8203 Q3339.375,2472.3828 3339.375,2474.5313 L3339.375,2476.8359 Q3339.375,2479.4141 3341.4844,2481.1328 Q3343.5938,2482.8516 3347.3438,2482.8516 Q3349.5703,2482.8516 3351.1328,2482.3438 Q3352.0313,2482.0703 3353.0469,2481.1719 Q3353.7109,2480.6641 3354.0625,2480.5078 Q3354.4141,2480.3516 3354.8438,2480.3516 Q3355.6641,2480.3516 3356.25,2481.0156 Q3356.875,2481.6406 3356.875,2482.5391 Q3356.875,2483.3984 3356.0156,2484.4141 Q3354.7656,2485.8984 3352.7734,2486.7188 Q3350.1563,2487.8516 3346.9531,2487.8516 Q3343.2031,2487.8516 3340.1953,2486.3672 Q3337.7734,2485.1953 3336.0547,2482.6563 Q3334.375,2480.1172 3334.375,2477.1094 L3334.375,2474.375 Q3334.375,2471.25 3335.8594,2468.5156 Q3337.3828,2465.7813 3340,2464.3359 Q3342.6563,2462.8516 3345.625,2462.8516 Q3347.4219,2462.8516 3348.9844,2463.4766 Q3350.5469,2464.1016 3351.875,2465.3516 Z " fill="#000000"/><ellipse cx="3410.625" cy="2472.8516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="457.5" x="3425.625" y="2486.377">UnexpectedStatusWordException</text><line style="stroke:#8E44AD;stroke-width:3.75;" x1="3113.75" x2="4086.25" y1="2514.1016" y2="2514.1016"/><line style="stroke:#8E44AD;stroke-width:2.5;" x1="3113.75" x2="4086.25" y1="2534.1016" y2="2534.1016"/><ellipse cx="3138.75" cy="2561.6016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="867.5" x="3161.25" y="2572.6489">UnexpectedStatusWordException (CardResponseApi cardResponseApi</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="625" x="3221.25" y="2607.2388">boolean isCardResponseComplete, String message)</text><ellipse cx="3138.75" cy="2630.7813" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="867.5" x="3161.25" y="2641.8286">UnexpectedStatusWordException (CardResponseApi cardResponseApi</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="852.5" x="3221.25" y="2676.4185">boolean isCardResponseComplete, String message, Throwable cause)</text><!--MD5=[e210ee7b55cb4fcef849a017d68619f7]
+class CardSelectionSpi--><rect codeLine="50" fill="#FEFECE" height="189.1797" id="CardSelectionSpi" style="stroke:#D4AC0D;stroke-width:3.75;" width="1000" x="1077.5" y="321.6016"/><ellipse cx="1433.125" cy="361.6016" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M1435.625,354.1016 L1435.625,369.1016 L1440.625,369.1016 L1441.8359,369.1016 L1443.125,370.6641 L1443.125,371.6016 L1443.125,372.5391 L1441.8359,374.1016 L1440.625,374.1016 L1425.625,374.1016 L1424.4141,374.1016 L1423.125,372.5391 L1423.125,371.6016 L1423.125,370.6641 L1424.4141,369.1016 L1425.625,369.1016 L1430.625,369.1016 L1430.625,354.1016 L1425.625,354.1016 L1424.4141,354.1016 L1423.125,352.5391 L1423.125,351.6016 L1423.125,350.6641 L1424.4141,349.1016 L1425.625,349.1016 L1440.625,349.1016 L1441.8359,349.1016 L1443.125,350.6641 L1443.125,351.6016 L1443.125,352.5391 L1441.8359,354.1016 L1440.625,354.1016 L1435.625,354.1016 Z " fill="#000000"/><ellipse cx="1496.875" cy="360.3516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="240" x="1511.875" y="373.877">CardSelectionSpi</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1080" x2="2075" y1="401.6016" y2="401.6016"/><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1080" x2="2075" y1="421.6016" y2="421.6016"/><ellipse cx="1105" cy="449.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="645" x="1127.5" y="460.1489">CardSelectionRequestSpi getCardSelectionRequest ()</text><ellipse cx="1105" cy="483.6914" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="935" x="1127.5" y="494.7388">SmartCardSpi parse (CardSelectionResponseApi cardSelectionResponseApi)</text><!--MD5=[dccdbbb850bf03879ac099cfa435f162]
+class CardSelectorSpi--><rect codeLine="54" fill="#FEFECE" height="327.5391" id="CardSelectorSpi" style="stroke:#D4AC0D;stroke-width:3.75;" width="695" x="252.5" y="716.6016"/><ellipse cx="463.125" cy="756.6016" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M465.625,749.1016 L465.625,764.1016 L470.625,764.1016 L471.8359,764.1016 L473.125,765.6641 L473.125,766.6016 L473.125,767.5391 L471.8359,769.1016 L470.625,769.1016 L455.625,769.1016 L454.4141,769.1016 L453.125,767.5391 L453.125,766.6016 L453.125,765.6641 L454.4141,764.1016 L455.625,764.1016 L460.625,764.1016 L460.625,749.1016 L455.625,749.1016 L454.4141,749.1016 L453.125,747.5391 L453.125,746.6016 L453.125,745.6641 L454.4141,744.1016 L455.625,744.1016 L470.625,744.1016 L471.8359,744.1016 L473.125,745.6641 L473.125,746.6016 L473.125,747.5391 L471.8359,749.1016 L470.625,749.1016 L465.625,749.1016 Z " fill="#000000"/><ellipse cx="526.875" cy="755.3516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="225" x="541.875" y="768.877">CardSelectorSpi</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="255" x2="945" y1="796.6016" y2="796.6016"/><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="255" x2="945" y1="816.6016" y2="816.6016"/><ellipse cx="280" cy="844.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="297.5" x="302.5" y="855.1489">String getCardProtocol ()</text><ellipse cx="280" cy="878.6914" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="390" x="302.5" y="889.7388">String getPowerOnDataRegex ()</text><ellipse cx="280" cy="913.2813" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="180" x="302.5" y="924.3286">byte[] getAid ()</text><ellipse cx="280" cy="947.8711" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="442.5" x="302.5" y="958.9185">FileOccurrence getFileOccurrence ()</text><ellipse cx="280" cy="982.4609" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="587.5" x="302.5" y="993.5083">FileControlInformation getFileControlInformation ()</text><ellipse cx="280" cy="1017.0508" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="630" x="302.5" y="1028.0981">Set&lt;Integer&gt; getSuccessfulSelectionStatusWords ()</text><!--MD5=[986279e3cfc2043660398b1cf71c65a2]
+class FileOccurrence--><rect codeLine="62" fill="#FEFECE" height="258.3594" id="FileOccurrence" style="stroke:#D4AC0D;stroke-width:3.75;" width="315" x="187.5" y="1256.6016"/><ellipse cx="225" cy="1296.6016" fill="#EB937F" rx="27.5" ry="27.5" style="stroke:#EB93DF;stroke-width:2.5;"/><path d="M221.25,1299.1016 L221.25,1304.1016 L231.25,1304.1016 L231.25,1301.6016 L231.25,1300.3906 L232.8125,1299.1016 L233.75,1299.1016 L234.6875,1299.1016 L236.25,1300.3906 L236.25,1301.6016 L236.25,1309.1016 L216.25,1309.1016 L215.0391,1309.1016 L213.75,1307.5391 L213.75,1306.6016 L213.75,1305.6641 L215.0391,1304.1016 L216.25,1304.1016 L216.25,1304.1016 L216.25,1289.1016 L216.25,1289.1016 L215.0391,1289.1016 L213.75,1287.5391 L213.75,1286.6016 L213.75,1285.6641 L215.0391,1284.1016 L216.25,1284.1016 L236.25,1284.1016 L236.25,1291.6016 L236.25,1292.8125 L234.6875,1294.1016 L233.75,1294.1016 L232.8125,1294.1016 L231.25,1292.8125 L231.25,1291.6016 L231.25,1289.1016 L221.25,1289.1016 L221.25,1294.1016 L223.75,1294.1016 L223.75,1292.8906 L223.75,1292.8906 L225.3125,1291.6016 L226.25,1291.6016 L227.1875,1291.6016 L228.75,1292.8906 L228.75,1294.1016 L228.75,1299.1016 L228.75,1300.3125 L227.1875,1301.6016 L227.1875,1301.6016 L226.25,1301.6016 L225.3125,1301.6016 L223.75,1300.3125 L223.75,1300.3125 L223.75,1299.1016 L221.25,1299.1016 Z " fill="#000000"/><ellipse cx="272.5" cy="1295.3516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="207.5" x="287.5" y="1308.877">FileOccurrence</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="190" x2="500" y1="1336.6016" y2="1336.6016"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="70" x="202.5" y="1375.1489">FIRST</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="67.5" x="202.5" y="1409.7388">LAST</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="65" x="202.5" y="1444.3286">NEXT</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="127.5" x="202.5" y="1478.9185">PREVIOUS</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="190" x2="500" y1="1494.9609" y2="1494.9609"/><!--MD5=[7db03ef0d09735de9c956eac87f10fc3]
+class FileControlInformation--><rect codeLine="68" fill="#FEFECE" height="258.3594" id="FileControlInformation" style="stroke:#D4AC0D;stroke-width:3.75;" width="415" x="590" y="1256.6016"/><ellipse cx="627.5" cy="1296.6016" fill="#EB937F" rx="27.5" ry="27.5" style="stroke:#EB93DF;stroke-width:2.5;"/><path d="M623.75,1299.1016 L623.75,1304.1016 L633.75,1304.1016 L633.75,1301.6016 L633.75,1300.3906 L635.3125,1299.1016 L636.25,1299.1016 L637.1875,1299.1016 L638.75,1300.3906 L638.75,1301.6016 L638.75,1309.1016 L618.75,1309.1016 L617.5391,1309.1016 L616.25,1307.5391 L616.25,1306.6016 L616.25,1305.6641 L617.5391,1304.1016 L618.75,1304.1016 L618.75,1304.1016 L618.75,1289.1016 L618.75,1289.1016 L617.5391,1289.1016 L616.25,1287.5391 L616.25,1286.6016 L616.25,1285.6641 L617.5391,1284.1016 L618.75,1284.1016 L638.75,1284.1016 L638.75,1291.6016 L638.75,1292.8125 L637.1875,1294.1016 L636.25,1294.1016 L635.3125,1294.1016 L633.75,1292.8125 L633.75,1291.6016 L633.75,1289.1016 L623.75,1289.1016 L623.75,1294.1016 L626.25,1294.1016 L626.25,1292.8906 L626.25,1292.8906 L627.8125,1291.6016 L628.75,1291.6016 L629.6875,1291.6016 L631.25,1292.8906 L631.25,1294.1016 L631.25,1299.1016 L631.25,1300.3125 L629.6875,1301.6016 L629.6875,1301.6016 L628.75,1301.6016 L627.8125,1301.6016 L626.25,1300.3125 L626.25,1300.3125 L626.25,1299.1016 L623.75,1299.1016 Z " fill="#000000"/><ellipse cx="675" cy="1295.3516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="307.5" x="690" y="1308.877">FileControlInformation</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="592.5" x2="1002.5" y1="1336.6016" y2="1336.6016"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="37.5" x="605" y="1375.1489">FCI</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="47.5" x="605" y="1409.7388">FCP</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="52.5" x="605" y="1444.3286">FMD</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="187.5" x="605" y="1478.9185">NO_RESPONSE</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="592.5" x2="1002.5" y1="1494.9609" y2="1494.9609"/><!--MD5=[c089e258773b765d812cd5d8bc232f90]
+class SmartCardSpi--><rect codeLine="74" fill="#FEFECE" height="120" id="SmartCardSpi" style="stroke:#D4AC0D;stroke-width:3.75;" width="302.5" x="1773.75" y="820.3516"/><ellipse cx="1811.25" cy="860.3516" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M1813.75,852.8516 L1813.75,867.8516 L1818.75,867.8516 L1819.9609,867.8516 L1821.25,869.4141 L1821.25,870.3516 L1821.25,871.2891 L1819.9609,872.8516 L1818.75,872.8516 L1803.75,872.8516 L1802.5391,872.8516 L1801.25,871.2891 L1801.25,870.3516 L1801.25,869.4141 L1802.5391,867.8516 L1803.75,867.8516 L1808.75,867.8516 L1808.75,852.8516 L1803.75,852.8516 L1802.5391,852.8516 L1801.25,851.2891 L1801.25,850.3516 L1801.25,849.4141 L1802.5391,847.8516 L1803.75,847.8516 L1818.75,847.8516 L1819.9609,847.8516 L1821.25,849.4141 L1821.25,850.3516 L1821.25,851.2891 L1819.9609,852.8516 L1818.75,852.8516 L1813.75,852.8516 Z " fill="#000000"/><ellipse cx="1858.75" cy="859.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="195" x="1873.75" y="872.627">SmartCardSpi</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1776.25" x2="2073.75" y1="900.3516" y2="900.3516"/><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1776.25" x2="2073.75" y1="920.3516" y2="920.3516"/><!--MD5=[52221cc32b96c3919957b075938e0d1c]
+class ParseException--><rect codeLine="92" fill="#FEFECE" height="209.6484" id="ParseException" style="stroke:#D4AC0D;stroke-width:3.75;" width="695" x="180" y="311.6016"/><ellipse cx="395.625" cy="361.8359" fill="#ADD1B2" rx="27.5" ry="27.5" style="stroke:#ADD1B2;stroke-width:2.5;"/><path d="M400.625,353.0859 Q401.1328,351.8359 401.7188,351.2109 Q402.3047,350.5859 402.9688,350.5859 Q404.1406,350.5859 404.8828,351.2891 Q405.625,351.9922 405.625,353.6328 L405.625,357.5391 Q405.625,359.1797 404.9219,359.8828 Q404.2188,360.5859 403.125,360.5859 Q402.1484,360.5859 401.5234,360.1563 Q400.8984,359.7266 400.625,358.5938 Q400.5078,357.8125 400.0781,357.3828 Q399.2969,356.5625 397.8906,356.0938 Q396.4844,355.5859 395.0781,355.5859 Q393.3203,355.5859 391.8359,356.2891 Q390.3906,356.9922 389.2578,358.5547 Q388.125,360.1172 388.125,362.2656 L388.125,364.5703 Q388.125,367.1484 390.2344,368.8672 Q392.3438,370.5859 396.0938,370.5859 Q398.3203,370.5859 399.8828,370.0781 Q400.7813,369.8047 401.7969,368.9063 Q402.4609,368.3984 402.8125,368.2422 Q403.1641,368.0859 403.5938,368.0859 Q404.4141,368.0859 405,368.75 Q405.625,369.375 405.625,370.2734 Q405.625,371.1328 404.7656,372.1484 Q403.5156,373.6328 401.5234,374.4531 Q398.9063,375.5859 395.7031,375.5859 Q391.9531,375.5859 388.9453,374.1016 Q386.5234,372.9297 384.8047,370.3906 Q383.125,367.8516 383.125,364.8438 L383.125,362.1094 Q383.125,358.9844 384.6094,356.25 Q386.1328,353.5156 388.75,352.0703 Q391.4063,350.5859 394.375,350.5859 Q396.1719,350.5859 397.7344,351.2109 Q399.2969,351.8359 400.625,353.0859 Z " fill="#000000"/><ellipse cx="459.375" cy="360.5859" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="205" x="479.375" y="355.2441">&lt;&lt;Exception&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="215" x="474.375" y="392.9785">ParseException</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="182.5" x2="872.5" y1="412.0703" y2="412.0703"/><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="182.5" x2="872.5" y1="432.0703" y2="432.0703"/><ellipse cx="207.5" cy="459.5703" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="402.5" x="230" y="470.6177">ParseException (String message)</text><ellipse cx="207.5" cy="494.1602" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="630" x="230" y="505.2075">ParseException (String message, Throwable cause)</text><!--MD5=[8d87e43a1a915ffb33ab992212a28e16]
+class CardSelectionRequestSpi--><rect codeLine="78" fill="#FEFECE" height="189.1797" id="CardSelectionRequestSpi" style="stroke:#D4AC0D;stroke-width:3.75;" width="490" x="1172.5" y="785.3516"/><ellipse cx="1222.375" cy="825.3516" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M1224.875,817.8516 L1224.875,832.8516 L1229.875,832.8516 L1231.0859,832.8516 L1232.375,834.4141 L1232.375,835.3516 L1232.375,836.2891 L1231.0859,837.8516 L1229.875,837.8516 L1214.875,837.8516 L1213.6641,837.8516 L1212.375,836.2891 L1212.375,835.3516 L1212.375,834.4141 L1213.6641,832.8516 L1214.875,832.8516 L1219.875,832.8516 L1219.875,817.8516 L1214.875,817.8516 L1213.6641,817.8516 L1212.375,816.2891 L1212.375,815.3516 L1212.375,814.4141 L1213.6641,812.8516 L1214.875,812.8516 L1229.875,812.8516 L1231.0859,812.8516 L1232.375,814.4141 L1232.375,815.3516 L1232.375,816.2891 L1231.0859,817.8516 L1229.875,817.8516 L1224.875,817.8516 Z " fill="#000000"/><ellipse cx="1272.625" cy="824.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="355" x="1287.625" y="837.627">CardSelectionRequestSpi</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1175" x2="1660" y1="865.3516" y2="865.3516"/><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1175" x2="1660" y1="885.3516" y2="885.3516"/><ellipse cx="1200" cy="912.8516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="425" x="1222.5" y="923.8989">CardSelectorSpi getCardSelector ()</text><ellipse cx="1200" cy="947.4414" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="425" x="1222.5" y="958.4888">CardRequestSpi getCardRequest ()</text><!--MD5=[b26cc63de5889bffd0c8769786a5769b]
+class CardRequestSpi--><rect codeLine="82" fill="#FEFECE" height="189.1797" id="CardRequestSpi" style="stroke:#D4AC0D;stroke-width:3.75;" width="592.5" x="1098.75" y="1290.3516"/><ellipse cx="1256.875" cy="1330.3516" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M1259.375,1322.8516 L1259.375,1337.8516 L1264.375,1337.8516 L1265.5859,1337.8516 L1266.875,1339.4141 L1266.875,1340.3516 L1266.875,1341.2891 L1265.5859,1342.8516 L1264.375,1342.8516 L1249.375,1342.8516 L1248.1641,1342.8516 L1246.875,1341.2891 L1246.875,1340.3516 L1246.875,1339.4141 L1248.1641,1337.8516 L1249.375,1337.8516 L1254.375,1337.8516 L1254.375,1322.8516 L1249.375,1322.8516 L1248.1641,1322.8516 L1246.875,1321.2891 L1246.875,1320.3516 L1246.875,1319.4141 L1248.1641,1317.8516 L1249.375,1317.8516 L1264.375,1317.8516 L1265.5859,1317.8516 L1266.875,1319.4141 L1266.875,1320.3516 L1266.875,1321.2891 L1265.5859,1322.8516 L1264.375,1322.8516 L1259.375,1322.8516 Z " fill="#000000"/><ellipse cx="1320.625" cy="1329.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="227.5" x="1335.625" y="1342.627">CardRequestSpi</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1101.25" x2="1688.75" y1="1370.3516" y2="1370.3516"/><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1101.25" x2="1688.75" y1="1390.3516" y2="1390.3516"/><ellipse cx="1126.25" cy="1417.8516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="527.5" x="1148.75" y="1428.8989">List&lt;ApduRequestSpi&gt; getApduRequests ()</text><ellipse cx="1126.25" cy="1452.4414" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="527.5" x="1148.75" y="1463.4888">boolean stopOnUnsuccessfulStatusWord ()</text><!--MD5=[1499b49b6a3daea27e4b5ae092e773a3]
+class ApduRequestSpi--><rect codeLine="86" fill="#FEFECE" height="223.7695" id="ApduRequestSpi" style="stroke:#D4AC0D;stroke-width:3.75;" width="585" x="1102.5" y="1891.6016"/><ellipse cx="1254.375" cy="1931.6016" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M1256.875,1924.1016 L1256.875,1939.1016 L1261.875,1939.1016 L1263.0859,1939.1016 L1264.375,1940.6641 L1264.375,1941.6016 L1264.375,1942.5391 L1263.0859,1944.1016 L1261.875,1944.1016 L1246.875,1944.1016 L1245.6641,1944.1016 L1244.375,1942.5391 L1244.375,1941.6016 L1244.375,1940.6641 L1245.6641,1939.1016 L1246.875,1939.1016 L1251.875,1939.1016 L1251.875,1924.1016 L1246.875,1924.1016 L1245.6641,1924.1016 L1244.375,1922.5391 L1244.375,1921.6016 L1244.375,1920.6641 L1245.6641,1919.1016 L1246.875,1919.1016 L1261.875,1919.1016 L1263.0859,1919.1016 L1264.375,1920.6641 L1264.375,1921.6016 L1264.375,1922.5391 L1263.0859,1924.1016 L1261.875,1924.1016 L1256.875,1924.1016 Z " fill="#000000"/><ellipse cx="1318.125" cy="1930.3516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="232.5" x="1333.125" y="1943.877">ApduRequestSpi</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1105" x2="1685" y1="1971.6016" y2="1971.6016"/><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="1105" x2="1685" y1="1991.6016" y2="1991.6016"/><ellipse cx="1130" cy="2019.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="205" x="1152.5" y="2030.1489">byte[] getApdu ()</text><ellipse cx="1130" cy="2053.6914" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="520" x="1152.5" y="2064.7388">Set&lt;Integer&gt; getSuccessfulStatusWords ()</text><ellipse cx="1130" cy="2088.2813" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="187.5" x="1152.5" y="2099.3286">String getInfo ()</text><!--MD5=[120218adfd8782b0057db0a1b8294250]
+class ApiProperties--><rect codeLine="111" fill="#FEFECE" height="154.5898" id="ApiProperties" style="stroke:#D4AC0D;stroke-width:3.75;" width="427.5" x="3688.75" y="802.8516"/><ellipse cx="3726.25" cy="842.8516" fill="#ADD1B2" rx="27.5" ry="27.5" style="stroke:#ADD1B2;stroke-width:2.5;"/><path d="M3731.25,834.1016 Q3731.7578,832.8516 3732.3438,832.2266 Q3732.9297,831.6016 3733.5938,831.6016 Q3734.7656,831.6016 3735.5078,832.3047 Q3736.25,833.0078 3736.25,834.6484 L3736.25,838.5547 Q3736.25,840.1953 3735.5469,840.8984 Q3734.8438,841.6016 3733.75,841.6016 Q3732.7734,841.6016 3732.1484,841.1719 Q3731.5234,840.7422 3731.25,839.6094 Q3731.1328,838.8281 3730.7031,838.3984 Q3729.9219,837.5781 3728.5156,837.1094 Q3727.1094,836.6016 3725.7031,836.6016 Q3723.9453,836.6016 3722.4609,837.3047 Q3721.0156,838.0078 3719.8828,839.5703 Q3718.75,841.1328 3718.75,843.2813 L3718.75,845.5859 Q3718.75,848.1641 3720.8594,849.8828 Q3722.9688,851.6016 3726.7188,851.6016 Q3728.9453,851.6016 3730.5078,851.0938 Q3731.4063,850.8203 3732.4219,849.9219 Q3733.0859,849.4141 3733.4375,849.2578 Q3733.7891,849.1016 3734.2188,849.1016 Q3735.0391,849.1016 3735.625,849.7656 Q3736.25,850.3906 3736.25,851.2891 Q3736.25,852.1484 3735.3906,853.1641 Q3734.1406,854.6484 3732.1484,855.4688 Q3729.5313,856.6016 3726.3281,856.6016 Q3722.5781,856.6016 3719.5703,855.1172 Q3717.1484,853.9453 3715.4297,851.4063 Q3713.75,848.8672 3713.75,845.8594 L3713.75,843.125 Q3713.75,840 3715.2344,837.2656 Q3716.7578,834.5313 3719.375,833.0859 Q3722.0313,831.6016 3725,831.6016 Q3726.7969,831.6016 3728.3594,832.2266 Q3729.9219,832.8516 3731.25,834.1016 Z " fill="#000000"/><ellipse cx="3773.75" cy="841.6016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="60" x="3788.75" y="855.127">final</text><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="252.5" x="3856.25" y="855.127">CardApiProperties</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="3691.25" x2="4113.75" y1="882.8516" y2="882.8516"/><ellipse cx="3716.25" cy="910.3516" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="57.5" x="3738.75" y="921.3989">final</text><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" text-decoration="underline" textLength="190" x="3803.75" y="921.3989">String VERSION</text><line style="stroke:#D4AC0D;stroke-width:3.75;" x1="3691.25" x2="4113.75" y1="937.4414" y2="937.4414"/><!--MD5=[752ddf5140aacf2af4e16923ec5562ef]
+class CardSelectionResponseApi--><rect codeLine="208" fill="#F4ECF7" height="258.3594" id="CardSelectionResponseApi" style="stroke:#8E44AD;stroke-width:3.75;" width="695" x="2905" y="751.6016"/><ellipse cx="3038.125" cy="791.6016" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M3040.625,784.1016 L3040.625,799.1016 L3045.625,799.1016 L3046.8359,799.1016 L3048.125,800.6641 L3048.125,801.6016 L3048.125,802.5391 L3046.8359,804.1016 L3045.625,804.1016 L3030.625,804.1016 L3029.4141,804.1016 L3028.125,802.5391 L3028.125,801.6016 L3028.125,800.6641 L3029.4141,799.1016 L3030.625,799.1016 L3035.625,799.1016 L3035.625,784.1016 L3030.625,784.1016 L3029.4141,784.1016 L3028.125,782.5391 L3028.125,781.6016 L3028.125,780.6641 L3029.4141,779.1016 L3030.625,779.1016 L3045.625,779.1016 L3046.8359,779.1016 L3048.125,780.6641 L3048.125,781.6016 L3048.125,782.5391 L3046.8359,784.1016 L3045.625,784.1016 L3040.625,784.1016 Z " fill="#000000"/><ellipse cx="3101.875" cy="790.3516" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="380" x="3116.875" y="803.877">CardSelectionResponseApi</text><line style="stroke:#8E44AD;stroke-width:3.75;" x1="2907.5" x2="3597.5" y1="831.6016" y2="831.6016"/><line style="stroke:#8E44AD;stroke-width:3.75;" x1="2907.5" x2="3597.5" y1="851.6016" y2="851.6016"/><ellipse cx="2932.5" cy="879.1016" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="312.5" x="2955" y="890.1489">String getPowerOnData ()</text><ellipse cx="2932.5" cy="913.6914" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="630" x="2955" y="924.7388">ApduResponseApi getSelectApplicationResponse ()</text><ellipse cx="2932.5" cy="948.2813" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="277.5" x="2955" y="959.3286">boolean hasMatched ()</text><ellipse cx="2932.5" cy="982.8711" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="472.5" x="2955" y="993.9185">CardResponseApi getCardResponse ()</text><!--MD5=[8f79ecf97aaeb6df1ec4123222024fca]
+class CardResponseApi--><rect codeLine="209" fill="#F4ECF7" height="209.6484" id="CardResponseApi" style="stroke:#8E44AD;stroke-width:3.75;" width="640" x="3032.5" y="1280.3516"/><ellipse cx="3201.875" cy="1330.5859" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M3204.375,1323.0859 L3204.375,1338.0859 L3209.375,1338.0859 L3210.5859,1338.0859 L3211.875,1339.6484 L3211.875,1340.5859 L3211.875,1341.5234 L3210.5859,1343.0859 L3209.375,1343.0859 L3194.375,1343.0859 L3193.1641,1343.0859 L3191.875,1341.5234 L3191.875,1340.5859 L3191.875,1339.6484 L3193.1641,1338.0859 L3194.375,1338.0859 L3199.375,1338.0859 L3199.375,1323.0859 L3194.375,1323.0859 L3193.1641,1323.0859 L3191.875,1321.5234 L3191.875,1320.5859 L3191.875,1319.6484 L3193.1641,1318.0859 L3194.375,1318.0859 L3209.375,1318.0859 L3210.5859,1318.0859 L3211.875,1319.6484 L3211.875,1320.5859 L3211.875,1321.5234 L3210.5859,1323.0859 L3209.375,1323.0859 L3204.375,1323.0859 Z " fill="#000000"/><ellipse cx="3265.625" cy="1329.3359" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="237.5" x="3288.125" y="1323.9941">&lt;&lt;Serializable&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="252.5" x="3280.625" y="1361.7285">CardResponseApi</text><line style="stroke:#8E44AD;stroke-width:3.75;" x1="3035" x2="3670" y1="1380.8203" y2="1380.8203"/><line style="stroke:#8E44AD;stroke-width:3.75;" x1="3035" x2="3670" y1="1400.8203" y2="1400.8203"/><ellipse cx="3060" cy="1428.3203" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="575" x="3082.5" y="1439.3677">List&lt;ApduResponseApi&gt; getApduResponses ()</text><ellipse cx="3060" cy="1462.9102" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="397.5" x="3082.5" y="1473.9575">boolean isLogicalChannelOpen ()</text><!--MD5=[593363c87188d3912986ed4ab95ef26f]
+class ApduResponseApi--><rect codeLine="210" fill="#F4ECF7" height="244.2383" id="ApduResponseApi" style="stroke:#8E44AD;stroke-width:3.75;" width="365" x="3540" y="1881.6016"/><ellipse cx="3577.5" cy="1931.8359" fill="#B4A7E5" rx="27.5" ry="27.5" style="stroke:#B4A7E5;stroke-width:2.5;"/><path d="M3580,1924.3359 L3580,1939.3359 L3585,1939.3359 L3586.2109,1939.3359 L3587.5,1940.8984 L3587.5,1941.8359 L3587.5,1942.7734 L3586.2109,1944.3359 L3585,1944.3359 L3570,1944.3359 L3568.7891,1944.3359 L3567.5,1942.7734 L3567.5,1941.8359 L3567.5,1940.8984 L3568.7891,1939.3359 L3570,1939.3359 L3575,1939.3359 L3575,1924.3359 L3570,1924.3359 L3568.7891,1924.3359 L3567.5,1922.7734 L3567.5,1921.8359 L3567.5,1920.8984 L3568.7891,1919.3359 L3570,1919.3359 L3585,1919.3359 L3586.2109,1919.3359 L3587.5,1920.8984 L3587.5,1921.8359 L3587.5,1922.7734 L3586.2109,1924.3359 L3585,1924.3359 L3580,1924.3359 Z " fill="#000000"/><ellipse cx="3625" cy="1930.5859" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="237.5" x="3650" y="1925.2441">&lt;&lt;Serializable&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="30" font-style="italic" lengthAdjust="spacing" textLength="257.5" x="3640" y="1962.9785">ApduResponseApi</text><line style="stroke:#8E44AD;stroke-width:3.75;" x1="3542.5" x2="3902.5" y1="1982.0703" y2="1982.0703"/><line style="stroke:#8E44AD;stroke-width:3.75;" x1="3542.5" x2="3902.5" y1="2002.0703" y2="2002.0703"/><ellipse cx="3567.5" cy="2029.5703" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="205" x="3590" y="2040.6177">byte[] getApdu ()</text><ellipse cx="3567.5" cy="2064.1602" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="237.5" x="3590" y="2075.2075">byte[] getDataOut ()</text><ellipse cx="3567.5" cy="2098.75" fill="#84BE84" rx="7.5" ry="7.5" style="stroke:#038048;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="27.5" lengthAdjust="spacing" textLength="242.5" x="3590" y="2109.7974">int getStatusWord ()</text><!--MD5=[1009538229b8579f9307b4ea464024c7]
+reverse link AbstractApduException to ReaderBrokenCommunicationException--><path d="M2200.7825,2178.7616 C2040.69,2261.2291 1852.38,2358.2316 1705.6825,2433.7966 " fill="none" id="AbstractApduException-backto-ReaderBrokenCommunicationException" style="stroke:#A80036;stroke-width:2.5;"/><polygon fill="none" points="2193.75,2162.6991,2246.2125,2155.3616,2209.7775,2193.8141,2193.75,2162.6991" style="stroke:#A80036;stroke-width:2.5;"/><!--MD5=[c10792058e4ee269d9b4d3b1dd341ade]
+reverse link AbstractApduException to CardBrokenCommunicationException--><path d="M2535,2332.7441 C2535,2368.3916 2535,2402.9141 2535,2433.8416 " fill="none" id="AbstractApduException-backto-CardBrokenCommunicationException" style="stroke:#A80036;stroke-width:2.5;"/><polygon fill="none" points="2517.5,2331.8541,2535,2281.8541,2552.5,2331.8541,2517.5,2331.8541" style="stroke:#A80036;stroke-width:2.5;"/><!--MD5=[de95e7d471be8c3d8011decaa2cfd536]
+reverse link AbstractApduException to UnexpectedStatusWordException--><path d="M2867.95,2281.6516 C2991.075,2351.6216 3095.3,2396.5716 3194.1,2433.8691 " fill="none" id="AbstractApduException-backto-UnexpectedStatusWordException" style="stroke:#A80036;stroke-width:2.5;"/><polygon fill="none" points="2858.925,2296.6541,2824.525,2256.3866,2876.525,2266.4016,2858.925,2296.6541" style="stroke:#A80036;stroke-width:2.5;"/><!--MD5=[0650cc34d72c7e8c430f86199a6befbd]
+link CardSelectionSpi to SmartCardSpi--><path codeLine="170" d="M1647.8225,511.9366 C1714.6325,600.1341 1813.5175,730.6791 1873.35,809.6641 " fill="none" id="CardSelectionSpi-to-SmartCardSpi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="1881.165,819.9841,1875.5471,796.0114,1873.616,810.021,1859.6063,808.0899,1881.165,819.9841" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="1762.5477,629.505,1754.7505,607.0435,1743.0371,615.9164,1762.5477,629.505" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="1777.5" y="632.8394">provide</text><!--MD5=[b2c6f4503e09f276de0cb6ba332bc40d]
+link CardSelectionSpi to CardSelectionRequestSpi--><path codeLine="171" d="M1545.1225,511.9366 C1518.7725,587.4866 1481.585,694.1066 1454.1475,772.7766 " fill="none" id="CardSelectionSpi-to-CardSelectionRequestSpi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="1449.83,785.1541,1466.6785,767.1992,1453.9443,773.3506,1447.7929,760.6163,1449.83,785.1541" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="1520.8835,631.3437,1535.2678,612.412,1521.3929,607.5728,1520.8835,631.3437" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="1547.5" y="632.8394">provide</text><!--MD5=[5562132985776398c1b044e39fade6ed]
+link CardSelectionSpi to CardSelectionResponseApi--><path codeLine="172" d="M1962.735,511.8566 C2146.0625,554.3541 2368.715,603.6016 2570,641.6016 C2713.6,668.7141 2756.125,646.1191 2895,691.6016 C2938.475,705.8366 2983.05,724.9416 3025.325,745.5041 " fill="none" id="CardSelectionSpi-to-CardSelectionResponseApi" style="stroke:#27AE60;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#27AE60" points="3037.175,751.3391,3021.4232,732.4147,3025.9655,745.8075,3012.5727,750.3498,3037.175,751.3391" style="stroke:#27AE60;stroke-width:2.5;"/><polygon fill="#000000" points="2594.7084,622.2254,2574.2011,610.1934,2571.0454,624.5452,2594.7084,622.2254" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="52.5" x="2605" y="632.8394">use</text><!--MD5=[1da8944d5c14859554dd283058f1a87a]
+reverse link ParseException to CardSelectionSpi--><path codeLine="173" d="M888.5725,416.6016 C949.2425,416.6016 1013.1625,416.6016 1076.61,416.6016 " fill="none" id="ParseException-backto-CardSelectionSpi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="875.6775,416.6016,898.1775,426.6016,888.1775,416.6016,898.1775,406.6016,875.6775,416.6016" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="918.75,387.041,941.3627,394.3883,941.3627,379.6937,918.75,387.041" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="77.5" x="953.75" y="400.3394">throw</text><!--MD5=[b588842ff93523625a87f083bb0c2650]
+reverse link CardSelectorSpi to CardSelectionRequestSpi--><path codeLine="175" d="M961.1225,880.3516 C1032.175,880.3516 1105.1725,880.3516 1171.3725,880.3516 " fill="none" id="CardSelectorSpi-backto-CardSelectionRequestSpi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="947.88,880.3516,970.38,890.3516,960.38,880.3516,970.38,870.3516,947.88,880.3516" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="991.25,850.791,1013.8627,858.1383,1013.8627,843.4437,991.25,850.791" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="1026.25" y="864.0894">provide</text><!--MD5=[81e5de53e28fbdb8de61555fc5ff1266]
+link CardSelectionRequestSpi to CardRequestSpi--><path codeLine="176" d="M1412.25,975.9691 C1409.8825,1019.4491 1407.1425,1071.9166 1405,1119.1016 C1402.645,1170.9866 1400.415,1228.6291 1398.66,1276.7591 " fill="none" id="CardSelectionRequestSpi-to-CardRequestSpi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="1398.1775,1290.0716,1408.981,1267.9461,1398.6275,1277.5797,1388.9939,1267.2262,1398.1775,1290.0716" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="1416.9358,1154.5283,1425.2963,1132.2702,1410.6166,1131.607,1416.9358,1154.5283" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="1440" y="1155.3394">provide</text><!--MD5=[a7b644d522c65a78240304c1bcaedf9f]
+reverse link CardSelectorSpi to FileOccurrence--><path codeLine="178" d="M537.5275,1080.5041 C526.2575,1109.0991 513.6875,1137.7466 500,1164.1016 C483.91,1195.0816 463.9425,1226.6841 443.755,1255.8866 " fill="none" id="CardSelectorSpi-backto-FileOccurrence" style="stroke:#A80036;stroke-width:2.5;"/><ellipse cx="544.0396" cy="1063.2061" fill="#FFFFFF" rx="20" ry="20" style="stroke:#A80036;stroke-width:2.5;"/><line style="stroke:#A80036;stroke-width:2.5;" x1="536.9916" x2="551.0875" y1="1081.9231" y2="1044.4891"/><line style="stroke:#A80036;stroke-width:2.5;" x1="525.3226" x2="562.7566" y1="1056.1581" y2="1070.254"/><!--MD5=[98e609a6df10cb0fc0e076273071ce5d]
+link CardSelectorSpi to FileOccurrence--><path codeLine="179" d="M389.475,1044.5016 C370.5975,1067.4741 354.22,1092.4416 342.5,1119.1016 C325.63,1157.4716 321.145,1202.1191 322.3425,1243.6541 " fill="none" id="CardSelectorSpi-to-FileOccurrence" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="322.89,1256.4316,331.9166,1233.5237,322.3543,1243.943,311.935,1234.3808,322.89,1256.4316" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="351.0071,1153.8861,365.1927,1134.8051,351.2679,1130.1112,351.0071,1153.8861" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="377.5" y="1155.3394">provide</text><!--MD5=[2b57eb5787ed3e5461ab360ac3bfbf5b]
+reverse link CardSelectorSpi to FileControlInformation--><path codeLine="180" d="M756.24,1077.6716 C763.3625,1091.2691 769.72,1105.1316 775,1119.1016 C791.245,1162.0916 798.2325,1211.7391 800.715,1256.2866 " fill="none" id="CardSelectorSpi-backto-FileControlInformation" style="stroke:#A80036;stroke-width:2.5;"/><ellipse cx="747.1252" cy="1061.841" fill="#FFFFFF" rx="20" ry="20" style="stroke:#A80036;stroke-width:2.5;"/><line style="stroke:#A80036;stroke-width:2.5;" x1="757.1053" x2="737.145" y1="1079.173" y2="1044.5091"/><line style="stroke:#A80036;stroke-width:2.5;" x1="729.7932" x2="764.4571" y1="1071.8212" y2="1051.8609"/><!--MD5=[297033ca44733b16f68f45914f4da7ba]
+link CardSelectorSpi to FileControlInformation--><path codeLine="181" d="M592.8825,1044.2916 C595.7125,1084.5091 602.795,1126.7766 617.5,1164.1016 C628.8,1192.7816 645.3575,1220.5316 663.92,1246.0891 " fill="none" id="CardSelectorSpi-to-FileControlInformation" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="671.4125,1256.1466,665.9907,1232.1288,663.9451,1246.1222,649.9517,1244.0766,671.4125,1256.1466" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="634.1506,1153.8318,633.5725,1130.0624,619.7116,1134.9418,634.1506,1153.8318" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="652.5" y="1155.3394">provide</text><!--MD5=[8d072c8ae4c2a923e36ed15f691653c0]
+link CardRequestSpi to ApduRequestSpi--><path codeLine="183" d="M1334.7625,1480.9016 C1313.8725,1518.3891 1293.05,1563.0191 1282.5,1606.6016 C1260.205,1698.6966 1291.3725,1801.6191 1326.505,1879.3091 " fill="none" id="CardRequestSpi-to-ApduRequestSpi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="1332.17,1891.5566,1331.7972,1866.9372,1326.9209,1880.2121,1313.6461,1875.3358,1332.17,1891.5566" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="1294.741,1642.0383,1302.5553,1619.5827,1287.8638,1619.2782,1294.741,1642.0383" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="1317.5" y="1642.8394">provide</text><!--MD5=[eb83ee6c6de48d735f24ac7b8e798bf7]
+link CardSelectionResponseApi to ApduResponseApi--><path codeLine="185" d="M3498.55,1009.5166 C3583.975,1067.1291 3670.15,1143.9591 3717.5,1239.1016 C3817.475,1439.9666 3787.25,1709.0791 3755.425,1868.0291 " fill="none" id="CardSelectionResponseApi-to-ApduResponseApi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="3752.75,1881.1716,3767.0528,1861.1296,3755.2529,1868.9247,3747.4578,1857.1249,3752.75,1881.1716" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="3798.5832,1397.7664,3799.1401,1373.9966,3785.0622,1378.2088,3798.5832,1397.7664" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="3817.5" y="1399.0894">provide</text><!--MD5=[1714241acd7d2133df19efd008721ab1]
+link CardSelectionResponseApi to CardResponseApi--><path codeLine="186" d="M3277.875,1009.6691 C3293.675,1088.7091 3313.85,1189.6491 3329.25,1266.6166 " fill="none" id="CardSelectionResponseApi-to-CardResponseApi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="3331.875,1279.7241,3337.2816,1255.7029,3329.4304,1267.4654,3317.6678,1259.6142,3331.875,1279.7241" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="3322.4508,1154.2984,3325.222,1130.684,3310.8126,1133.5651,3322.4508,1154.2984" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="3342.5" y="1155.3394">provide</text><!--MD5=[6cdd032d6f0a6ec5d0180056f5b276fc]
+link CardResponseApi to ApduResponseApi--><path codeLine="188" d="M3414.425,1490.5791 C3477.2,1594.7141 3574.575,1756.2466 3643.025,1869.7666 " fill="none" id="CardResponseApi-to-ApduResponseApi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="3649.55,1880.5991,3646.5069,1856.1657,3643.1004,1869.8914,3629.3747,1866.485,3649.55,1880.5991" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="3521.4538,1640.2461,3516.0711,1617.087,3503.4865,1624.6738,3521.4538,1640.2461" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="3537.5" y="1642.8394">provide</text><!--MD5=[204afea56fbb341093958fd5ccf00e7a]
+link CardResponseApi to AbstractApduException--><path codeLine="190" d="M3197.45,1490.5216 C3100.4,1556.0116 2973.625,1643.8491 2865,1726.6016 C2860.2,1730.2566 2855.375,1733.9541 2850.525,1737.6891 " fill="none" id="CardResponseApi-to-AbstractApduException" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#3498DB" points="2824.475,1757.9791,2842.4528,1756.638,2848.1295,1739.5273,2830.1517,1740.8684,2824.475,1757.9791" style="stroke:#3498DB;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="55" x="3114.497" y="1543.5202">0..1</text><!--MD5=[480721e67db7582f707caf330eceae59]
+reverse link CardRequestSpi to ProxyReaderApi--><path codeLine="192" d="M1704.9475,1385.3516 C1874.0425,1385.3516 2081.785,1385.3516 2246.1875,1385.3516 " fill="none" id="CardRequestSpi-backto-ProxyReaderApi" style="stroke:#27AE60;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#27AE60" points="1691.81,1385.3516,1714.31,1395.3516,1704.31,1385.3516,1714.31,1375.3516,1691.81,1385.3516" style="stroke:#27AE60;stroke-width:2.5;"/><polygon fill="#000000" points="1923.75,1355.791,1946.3627,1363.1383,1946.3627,1348.4437,1923.75,1355.791" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="52.5" x="1958.75" y="1369.0894">use</text><!--MD5=[b63362a26eb7d18875e37857d756049e]
+reverse link ChannelControl to ProxyReaderApi--><path codeLine="193" d="M2527.5,988.9891 C2527.5,1061.5966 2527.5,1158.7491 2527.5,1238.3966 " fill="none" id="ChannelControl-backto-ProxyReaderApi" style="stroke:#27AE60;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#27AE60" points="2527.5,975.7266,2517.5,998.2266,2527.5,988.2266,2537.5,998.2266,2527.5,975.7266" style="stroke:#27AE60;stroke-width:2.5;"/><polygon fill="#000000" points="2540,1129.541,2532.6527,1152.1537,2547.3473,1152.1537,2540,1129.541" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="52.5" x="2562.5" y="1155.3394">use</text><!--MD5=[130a5f5d3437aac467d122a6fe4d357e]
+link ProxyReaderApi to CardResponseApi--><path codeLine="195" d="M2809.1,1385.3516 C2876.775,1385.3516 2949.7,1385.3516 3019.475,1385.3516 " fill="none" id="ProxyReaderApi-to-CardResponseApi" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="3032.45,1385.3516,3009.95,1375.3516,3019.95,1385.3516,3009.95,1395.3516,3032.45,1385.3516" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="2876.875,1355.791,2854.2623,1348.4437,2854.2623,1363.1383,2876.875,1355.791" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="100" x="2886.875" y="1369.0894">provide</text><!--MD5=[61bae4c705f5ef877f3c562fe0e8c403]
+link ProxyReaderApi to AbstractApduException--><path codeLine="196" d="M2529.25,1531.7491 C2529.925,1586.2241 2530.7,1650.3516 2531.475,1713.4216 " fill="none" id="ProxyReaderApi-to-AbstractApduException" style="stroke:#3498DB;stroke-width:2.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#3498DB" points="2531.625,1726.0191,2541.3478,1703.3979,2531.4714,1713.52,2521.3493,1703.6436,2531.625,1726.0191" style="stroke:#3498DB;stroke-width:2.5;"/><polygon fill="#000000" points="2545.1531,1642.0401,2552.2229,1619.3391,2537.5294,1619.519,2545.1531,1642.0401" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="32.5" lengthAdjust="spacing" textLength="77.5" x="2567.5" y="1642.8394">throw</text><!--MD5=[86c6230f4a215fdb6b827cba34ea9e52]
+link CardSelectionResponseApi to ApiProperties--><!--MD5=[654318a40bd4e5097d571be5c7fab819]
+link spi to CardSelectionResponseApi--><!--MD5=[cdc27e45b4c077380dd0a7352ad1cf8f]
+@startuml
+title
+        Calypsonet - calypsonet-terminal-card-java-api - 1.0.+ (15/06/2021)
+end title
+
+' == THEME ==
+
+'Couleurs issues de : https://htmlcolorcodes.com/fr/tableau-de-couleur/tableau-de-couleur-design-plat/
+!define C_GREY1 F8F9F9
+!define C_GREY2 F2F3F4
+!define C_GREY3 E5E7E9
+!define C_GREY4 D7DBDD
+!define C_GREY5 CACFD2
+!define C_GREY6 BDC3C7
+!define C_LINK 3498DB
+!define C_USE 27AE60
+
+skinparam Shadowing false
+skinparam ClassFontStyle italic
+skinparam ClassBorderColor #D4AC0D
+skinparam stereotypeABorderColor #A9DCDF
+skinparam stereotypeIBorderColor #B4A7E5
+skinparam stereotypeCBorderColor #ADD1B2
+skinparam stereotypeEBorderColor #EB93DF
+' Red
+skinparam ClassBackgroundColor<<red>> #FDEDEC
+skinparam ClassBorderColor<<red>> #E74C3C
+hide <<red>> stereotype
+' Purple
+skinparam ClassBackgroundColor<<purple>> #F4ECF7
+skinparam ClassBorderColor<<purple>> #8E44AD
+hide <<purple>> stereotype
+' blue
+skinparam ClassBackgroundColor<<blue>> #EBF5FB
+skinparam ClassBorderColor<<blue>> #3498DB
+hide <<blue>> stereotype
+' Green
+skinparam ClassBackgroundColor<<green>> #E9F7EF
+skinparam ClassBorderColor<<green>> #27AE60
+hide <<green>> stereotype
+' Grey
+skinparam ClassBackgroundColor<<grey>> #EAECEE
+skinparam ClassBorderColor<<grey>> #2C3E50
+hide <<grey>> stereotype
+
+' == CONTENT ==
+
+package "org.calypsonet.terminal.card" as api {
+    ' SPI
+    package spi {
+        +interface CardSelectionSpi {
+            +CardSelectionRequestSpi getCardSelectionRequest ()
+            +SmartCardSpi parse (CardSelectionResponseApi cardSelectionResponseApi)
+        }
+        +interface CardSelectorSpi {
+            +String getCardProtocol ()
+            +String getPowerOnDataRegex ()
+            +byte[] getAid ()
+            +FileOccurrence getFileOccurrence ()
+            +FileControlInformation getFileControlInformation ()
+            +Set<Integer> getSuccessfulSelectionStatusWords ()
+        }
+        +enum FileOccurrence {
+            FIRST
+            LAST
+            NEXT
+            PREVIOUS
+        }
+        +enum FileControlInformation {
+            FCI
+            FCP
+            FMD
+            NO_RESPONSE
+        }
+        +interface SmartCardSpi {
+        }
+        ' REQUEST
+        together {
+            +interface CardSelectionRequestSpi {
+                +CardSelectorSpi getCardSelector ()
+                +CardRequestSpi getCardRequest ()
+            }
+            +interface CardRequestSpi {
+                +List<ApduRequestSpi> getApduRequests ()
+                +boolean stopOnUnsuccessfulStatusWord ()
+            }
+            +interface ApduRequestSpi {
+                +byte[] getApdu ()
+                +Set<Integer> getSuccessfulStatusWords ()
+                +String getInfo ()
+            }
+        }
+        +class "<<Exception>>\nParseException" as ParseException {
+            +ParseException (String message)
+            +ParseException (String message, Throwable cause)
+        }
+    }
+    +interface ProxyReaderApi {
+        - -
+        +CardResponseApi transmitCardRequest (
+            \tCardRequestSpi cardRequest,
+            \tChannelControl channelControl)
+
+        +void releaseChannel ()
+    }
+    +enum ChannelControl {
+        KEEP_OPEN
+        CLOSE_AFTER
+    }
+    ' RESPONSE
+    together {
+        +class "**final** CardApiProperties" as ApiProperties {
+            +{static} **final** String VERSION
+        }
+        +interface CardSelectionResponseApi {
+            +String getPowerOnData ()
+            +ApduResponseApi getSelectApplicationResponse ()
+            +boolean hasMatched ()
+            +CardResponseApi getCardResponse ()
+        }
+        +interface "<<Serializable>>\nCardResponseApi" as CardResponseApi {
+            +List<ApduResponseApi> getApduResponses ()
+            +boolean isLogicalChannelOpen ()
+        }
+        +interface "<<Serializable>>\nApduResponseApi" as ApduResponseApi {
+            +byte[] getApdu ()
+            +byte[] getDataOut ()
+            +int getStatusWord ()
+        }
+    }
+    +abstract class "<<Exception>>\nAbstractApduException" as AbstractApduException {
+        - -
+        #AbstractApduException (
+            \tCardResponseApi cardResponseApi,
+            \tboolean isCardResponseComplete,
+            \tString message)
+        #AbstractApduException (
+            \tCardResponseApi cardResponseApi,
+            \tboolean isCardResponseComplete,
+            \tString message,
+            \tThrowable cause)
+
+        +CardResponseApi getCardResponse ()
+        +boolean isCardResponseComplete ()
+    }
+    +class ReaderBrokenCommunicationException extends AbstractApduException {
+        - -
+        +ReaderBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message)
+        +ReaderBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message, Throwable cause)
+    }
+    +class CardBrokenCommunicationException extends AbstractApduException {
+        - -
+        +CardBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message)
+        +CardBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message, Throwable cause)
+    }
+    +class UnexpectedStatusWordException extends AbstractApduException {
+        - -
+        +UnexpectedStatusWordException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message)
+        +UnexpectedStatusWordException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message, Throwable cause)
+    }
+}
+
+' Associations
+
+CardSelectionSpi ..> SmartCardSpi #C_LINK : provide >
+CardSelectionSpi ..> CardSelectionRequestSpi #C_LINK : provide >
+CardSelectionSpi ..> CardSelectionResponseApi #C_USE : use >
+CardSelectionSpi .left.> ParseException #C_LINK : throw >
+
+CardSelectionRequestSpi .left.> CardSelectorSpi #C_LINK : provide >
+CardSelectionRequestSpi ..> CardRequestSpi #C_LINK : provide >
+
+CardSelectorSpi +- - FileOccurrence
+CardSelectorSpi ..> FileOccurrence #C_LINK : provide >
+CardSelectorSpi +- - FileControlInformation
+CardSelectorSpi ..> FileControlInformation #C_LINK : provide >
+
+CardRequestSpi ..> ApduRequestSpi #C_LINK : provide >
+
+CardSelectionResponseApi ..> ApduResponseApi #C_LINK : provide >
+CardSelectionResponseApi ..> CardResponseApi #C_LINK : provide >
+
+CardResponseApi ..> ApduResponseApi #C_LINK : provide >
+
+AbstractApduException *-up- "0..1" CardResponseApi #C_LINK
+
+ProxyReaderApi .left.> CardRequestSpi #C_USE : use >
+ProxyReaderApi .up.> ChannelControl #C_USE : use >
+
+ProxyReaderApi .right.> CardResponseApi #C_LINK : provide >
+ProxyReaderApi ..> AbstractApduException #C_LINK : throw >
+
+' == LAYOUT ==
+
+ApiProperties -[hidden]left- CardSelectionResponseApi
+spi -[hidden]- CardSelectionResponseApi
+
+' == STYLE ==
+
+package api #C_GREY1 {}
+package spi #C_GREY2 {}
+
+interface CardSelectionResponseApi <<purple>>
+interface CardResponseApi <<purple>>
+interface ApduResponseApi <<purple>>
+abstract class AbstractApduException <<purple>>
+class ReaderBrokenCommunicationException <<purple>>
+class CardBrokenCommunicationException <<purple>>
+class UnexpectedStatusWordException <<purple>>
+
+@enduml
+
+@startuml
+title
+        Calypsonet - calypsonet-terminal-card-java-api - 1.0.+ (15/06/2021)
+end title
+
+
+
+skinparam Shadowing false
+skinparam ClassFontStyle italic
+skinparam ClassBorderColor #D4AC0D
+skinparam stereotypeABorderColor #A9DCDF
+skinparam stereotypeIBorderColor #B4A7E5
+skinparam stereotypeCBorderColor #ADD1B2
+skinparam stereotypeEBorderColor #EB93DF
+skinparam ClassBackgroundColor<<red>> #FDEDEC
+skinparam ClassBorderColor<<red>> #E74C3C
+hide <<red>> stereotype
+skinparam ClassBackgroundColor<<purple>> #F4ECF7
+skinparam ClassBorderColor<<purple>> #8E44AD
+hide <<purple>> stereotype
+skinparam ClassBackgroundColor<<blue>> #EBF5FB
+skinparam ClassBorderColor<<blue>> #3498DB
+hide <<blue>> stereotype
+skinparam ClassBackgroundColor<<green>> #E9F7EF
+skinparam ClassBorderColor<<green>> #27AE60
+hide <<green>> stereotype
+skinparam ClassBackgroundColor<<grey>> #EAECEE
+skinparam ClassBorderColor<<grey>> #2C3E50
+hide <<grey>> stereotype
+
+
+package "org.calypsonet.terminal.card" as api {
+    package spi {
+        +interface CardSelectionSpi {
+            +CardSelectionRequestSpi getCardSelectionRequest ()
+            +SmartCardSpi parse (CardSelectionResponseApi cardSelectionResponseApi)
+        }
+        +interface CardSelectorSpi {
+            +String getCardProtocol ()
+            +String getPowerOnDataRegex ()
+            +byte[] getAid ()
+            +FileOccurrence getFileOccurrence ()
+            +FileControlInformation getFileControlInformation ()
+            +Set<Integer> getSuccessfulSelectionStatusWords ()
+        }
+        +enum FileOccurrence {
+            FIRST
+            LAST
+            NEXT
+            PREVIOUS
+        }
+        +enum FileControlInformation {
+            FCI
+            FCP
+            FMD
+            NO_RESPONSE
+        }
+        +interface SmartCardSpi {
+        }
+        together {
+            +interface CardSelectionRequestSpi {
+                +CardSelectorSpi getCardSelector ()
+                +CardRequestSpi getCardRequest ()
+            }
+            +interface CardRequestSpi {
+                +List<ApduRequestSpi> getApduRequests ()
+                +boolean stopOnUnsuccessfulStatusWord ()
+            }
+            +interface ApduRequestSpi {
+                +byte[] getApdu ()
+                +Set<Integer> getSuccessfulStatusWords ()
+                +String getInfo ()
+            }
+        }
+        +class "<<Exception>>\nParseException" as ParseException {
+            +ParseException (String message)
+            +ParseException (String message, Throwable cause)
+        }
+    }
+    +interface ProxyReaderApi {
+        - -
+        +CardResponseApi transmitCardRequest (
+            \tCardRequestSpi cardRequest,
+            \tChannelControl channelControl)
+
+        +void releaseChannel ()
+    }
+    +enum ChannelControl {
+        KEEP_OPEN
+        CLOSE_AFTER
+    }
+    together {
+        +class "**final** CardApiProperties" as ApiProperties {
+            +{static} **final** String VERSION
+        }
+        +interface CardSelectionResponseApi {
+            +String getPowerOnData ()
+            +ApduResponseApi getSelectApplicationResponse ()
+            +boolean hasMatched ()
+            +CardResponseApi getCardResponse ()
+        }
+        +interface "<<Serializable>>\nCardResponseApi" as CardResponseApi {
+            +List<ApduResponseApi> getApduResponses ()
+            +boolean isLogicalChannelOpen ()
+        }
+        +interface "<<Serializable>>\nApduResponseApi" as ApduResponseApi {
+            +byte[] getApdu ()
+            +byte[] getDataOut ()
+            +int getStatusWord ()
+        }
+    }
+    +abstract class "<<Exception>>\nAbstractApduException" as AbstractApduException {
+        - -
+        #AbstractApduException (
+            \tCardResponseApi cardResponseApi,
+            \tboolean isCardResponseComplete,
+            \tString message)
+        #AbstractApduException (
+            \tCardResponseApi cardResponseApi,
+            \tboolean isCardResponseComplete,
+            \tString message,
+            \tThrowable cause)
+
+        +CardResponseApi getCardResponse ()
+        +boolean isCardResponseComplete ()
+    }
+    +class ReaderBrokenCommunicationException extends AbstractApduException {
+        - -
+        +ReaderBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message)
+        +ReaderBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message, Throwable cause)
+    }
+    +class CardBrokenCommunicationException extends AbstractApduException {
+        - -
+        +CardBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message)
+        +CardBrokenCommunicationException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message, Throwable cause)
+    }
+    +class UnexpectedStatusWordException extends AbstractApduException {
+        - -
+        +UnexpectedStatusWordException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message)
+        +UnexpectedStatusWordException (CardResponseApi cardResponseApi
+            \tboolean isCardResponseComplete, String message, Throwable cause)
+    }
+}
+
+
+CardSelectionSpi ..> SmartCardSpi #3498DB : provide >
+CardSelectionSpi ..> CardSelectionRequestSpi #3498DB : provide >
+CardSelectionSpi ..> CardSelectionResponseApi #27AE60 : use >
+CardSelectionSpi .left.> ParseException #3498DB : throw >
+
+CardSelectionRequestSpi .left.> CardSelectorSpi #3498DB : provide >
+CardSelectionRequestSpi ..> CardRequestSpi #3498DB : provide >
+
+CardSelectorSpi +- - FileOccurrence
+CardSelectorSpi ..> FileOccurrence #3498DB : provide >
+CardSelectorSpi +- - FileControlInformation
+CardSelectorSpi ..> FileControlInformation #3498DB : provide >
+
+CardRequestSpi ..> ApduRequestSpi #3498DB : provide >
+
+CardSelectionResponseApi ..> ApduResponseApi #3498DB : provide >
+CardSelectionResponseApi ..> CardResponseApi #3498DB : provide >
+
+CardResponseApi ..> ApduResponseApi #3498DB : provide >
+
+AbstractApduException *-up- "0..1" CardResponseApi #3498DB
+
+ProxyReaderApi .left.> CardRequestSpi #27AE60 : use >
+ProxyReaderApi .up.> ChannelControl #27AE60 : use >
+
+ProxyReaderApi .right.> CardResponseApi #3498DB : provide >
+ProxyReaderApi ..> AbstractApduException #3498DB : throw >
+
+
+ApiProperties -[hidden]left- CardSelectionResponseApi
+spi -[hidden]- CardSelectionResponseApi
+
+
+package api #F8F9F9 {}
+package spi #F2F3F4 {}
+
+interface CardSelectionResponseApi <<purple>>
+interface CardResponseApi <<purple>>
+interface ApduResponseApi <<purple>>
+abstract class AbstractApduException <<purple>>
+class ReaderBrokenCommunicationException <<purple>>
+class CardBrokenCommunicationException <<purple>>
+class UnexpectedStatusWordException <<purple>>
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>
