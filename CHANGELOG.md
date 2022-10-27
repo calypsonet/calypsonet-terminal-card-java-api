@@ -6,8 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- "CHANGELOG.md" file (issue [#8]).
+- `CHANGELOG.md` file (issue [#8]).
 - CI: Forbid the publication of a version already released (issue [#6]).
+### Changed
+- UML diagrams moved to a dedicated repository (see `README.md` file).
 
 ## [1.0.0] - 2021-10-06
 This is the initial release.
