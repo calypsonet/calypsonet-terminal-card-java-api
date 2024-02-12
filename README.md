@@ -7,4 +7,4 @@ API documentation is available online: [calypsonet.github.io/calypsonet-terminal
 
 UML diagrams are available online: [github.com/calypsonet/calypsonet-terminal-card-uml-api](https://github.com/calypsonet/calypsonet-terminal-card-uml-api)
 
-More information can be found on [calypsonet.org](http://calypsonet.org).
+More information can be found on the [CNA Terminal API website](https://terminal-api.calypsonet.org/).
